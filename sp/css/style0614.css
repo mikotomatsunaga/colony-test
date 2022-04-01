@@ -1,0 +1,1253 @@
+body {
+background-color : #ffffff;
+color : #000000;
+}
+#main {
+line-height: 1.2em;
+}
+img {
+vertical-align : middle;
+}
+.bg_body_contents{
+background-color : #e7f7f7;
+}
+.bg_god_contents{
+background-color : #ffffff;
+}
+.bg_guidance_contents {
+background-color :#ffffff;
+}
+.bg_home_contents{
+background-color :#ffffff;
+}
+.bg_mypage_contents{
+background-color :#ffffff;
+}
+.bg_header_contents{
+background-color : #ffffff;
+text-align:center;
+}
+.bg_title_contents{
+background: url(../img/bg_subtitle.png);
+background-repeat: repeat-x;
+font-weight: bold;
+padding:5px 10px;
+}
+.bg_title_contents img{
+padding-right:5;
+}
+
+.bg_title_contents2{
+background: url(../img/bg_subtitle_02.png);
+background-repeat: repeat-x;
+font-weight: bold;
+padding:5px 10px;
+}
+.bg_title_contents2 img{
+padding-right:5;
+}
+
+.bg_footer_contents{
+background-color : #e7e7e7;
+padding-bottom : 10px;
+}
+
+.bg_home_footer_contents{
+background-color : #e7e7e7;
+padding-bottom : 15px;
+}
+
+.bg_attention_contents{
+background-color : #ffff00;
+}
+
+.bg_step_contents{
+background-color : #ffff00;
+}
+
+.bg_error_contents{
+background-color :#ff0000;
+color:#ffffff;
+padding:1px 0px 1px 0px;
+text-align:left
+}
+.bg_step_contents{
+background-color :#ffdddd;
+color:#000000;
+padding:1px 0px 1px 0px;
+text-align:left
+}
+
+.bg_nextstep_contents1{
+background-color :#9adede;
+color:#000000;
+padding:1px 0px 1px 0px;
+text-align:left
+}
+
+.bg_nextstep_contents2{
+background-color :#caeeee;
+color:#000000;
+padding:1px 0px 1px 0px;
+text-align:left
+}
+
+.bg_orenge_label{
+background-color :#f39440;
+color:#ffffff;
+padding:1px 0px 1px 0px;
+text-align:left
+}
+
+.bg_blue_label{
+background-color :#97b9ff;
+color:#000000;
+}
+
+a{
+    color:#ff6600;
+    font-style:normal;
+    text-decoration:underline;
+}
+a img{
+    border-style:none;
+}
+
+.hr-gry {
+height : 1px;
+color : #C0C0C0;
+}
+
+.img_fit{
+width:100%;
+/*height:100%;*/
+}
+.img_fit_bottom{
+vertical-align: text-bottom;
+}
+.img_fit_center{
+text-align: center;
+}
+
+/* サイズsmall */
+.txt_small {
+font-size:small;
+}
+/* サイズx-small */
+.txt_xsmall {
+font-size:x-small;
+}
+/* 赤字 */
+.txt_red {
+color: #ff0000;
+}
+/* オレンジ字 */
+.txt_org {
+color: #E98134;
+}
+/* 白字 */
+.txt_wht {
+color: #ffffff;
+}
+/* 太字 */
+.strong{
+font-weight: bold;
+}
+/* 太赤字 */
+.strong_red{
+color: #ff0000;
+font-weight: bold;
+}
+/* 個別レイアウト用 */
+.align_left{
+text-align: left;
+}
+.align_center{
+text-align: center;
+}
+.align_right{
+text-align: right;
+}
+.pdn5{
+padding: 5px;
+}
+.pdn_t5{
+padding-top: 5px;
+}
+.pdn_t10{
+padding-top: 10px;
+}
+.pdn_b5{
+padding-bottom: 5px;
+}
+
+.pdn_b10{
+padding-bottom: 10px;
+}
+.pdn_side5{
+padding-left: 5px;
+padding-right: 5px;
+}
+.pdn_side10{
+padding-left: 10px;
+padding-right: 10px;
+}
+
+/****************************************
+  パーツ別共通設定
+****************************************/
+
+/* 画面下方リンク用 */
+.btm_link_left{text-align: left;}
+.btm_link_right{text-align: right;}
+.btm_link_center{text-align: center;}
+
+/* 画面下方ボタン用 */
+.btm_submit{text-align: center; margin-bottom: 5px;}
+
+/* 画像用 */
+.ful_img{text-align:center;}
+.ful_img img{text-align:center; border-style:none;}
+
+/* 誘導ボタン用 */
+.lead_regist{text-align: center; padding: 10px;}
+.lead_link{text-align: center; padding: 10px; }
+.lead_label{color : #ff0000; padding: 10px; font-size:80%;}
+
+/* 画像背景用 */
+.bg_wht { background-color:#ffffff;}
+.bg_title_1{ background: url(../img/title_bg1.png); background-repeat: repeat-x;}
+.bg_title_2{ background: url(../img/title_bg2.png); background-repeat: repeat-x;}
+.bg_title_01 {background: #FFFFFF url(../img/bg_title_01.png);background-repeat: repeat-x;padding:5px;color:#ffffff;text-align:center;}
+.bg_title_02 {background: #FFFFFF url(../img/bg_title_01.png);background-repeat: repeat-x;padding:5px;color:#ffffff;text-align:center;}
+.bg_title_01s{ background: url(../img/bg_title_01s.png); background-repeat: repeat-x; padding:5px;}
+.bg_grd_yellow_1{ background: url(../img/bg_yellowheader.png); background-repeat: repeat-x; padding:5px;}
+.bg_grd_yellow_2{ background: url(../img/bg_yellowheader_02.png); background-repeat: repeat-x; padding:5px;}
+.bg_orange{ background: url(../img/bg_orange.png) center 50% no-repeat; padding:5px; margin:5px; text-align:center;}
+.bg_white{ background: url(../img/bg_white.png) center 50% no-repeat; padding:5px; margin:5px; text-align:center;}
+.bg_stepheader_1{ background: url(../img/bg_stepheader_01.png); background-repeat: repeat-x; padding:4px 10px;border-bottom:1px solid #ff0000;}
+.bg_stepheader_1 .step_ttl {color:#ffffff; font-weight:bold; text-shadow: 1px 1px 2px #808080; }
+.bg_stepheader_1 .step_txt {color:ffffff; padding-left:20px; text-shadow: 1px 1px 2px #ce0000; }
+.bg_stepheader_2{ background: url(../img/bg_stepheader_02.png); background-repeat: repeat-x;padding:4px 10px; border-bottom:1px solid #9cdede;}
+.bg_stepheader_2 .step_ttl {color:#ffffff; font-weight:bold; text-shadow: 1px 1px 2px #808080; }
+.bg_stepheader_2 .step_txt {color:ffffff; padding-left:20px; text-shadow: 1px 1px 2px #7bc6c6; }
+.bg_bankheader { background: url(../img/bg_bankheader.png); background-repeat: repeat-x; padding:8px; color:#000063;}
+.bg_bankheader img{padding-right:5px;}
+.bg_for_left {background: #FFFFFF url(../img/bg_link_for.png) left 50%  no-repeat; padding-left:8px;}
+.bg_mypage_01 {background: #FF0000 url(../img/bg_mypage_01.png);background-repeat: repeat-x;padding:5px;color:#ffffff;text-align:center;}
+.bg_step1 {background: #FFFFFF url(../img/bg_step1.png);background-repeat: repeat-x;}
+.bg_step2 {background: #FFFFFF url(../img/bg_step2.png);background-repeat: repeat-x;}
+.bg_step3 {background: #FFFFFF url(../img/bg_step3.png);background-repeat: repeat-x;}
+
+
+
+/* 「←」リンク用 */
+.bg_link_back_nb {
+    background: #FFFFFF url(../img/bg_link_back.png) left 50%  no-repeat;
+    border-bottom: 2px solid #f1d9c1;
+}
+.bg_link_back {
+    background: #FFFFFF url(../img/bg_link_back.png) left 50%  no-repeat;
+    border-top: 2px solid #f1d9c1;
+    border-bottom: 2px solid #f1d9c1;
+}
+.bg_link_back a, .bg_link_back_nb a {
+    color : #000000;
+    text-decoration: none;
+    display : block;
+    padding: 10px 0px 10px 30px;
+}
+
+/* 「→」リンク用 */
+.bg_link_for_nb {
+    background: #FFFFFF url(../img/bg_link_for.png) right 50%  no-repeat;
+    border-bottom: 2px solid #f1d9c1;
+}
+
+.bg_link_for {
+    background: #FFFFFF url(../img/bg_link_for.png) right 50%  no-repeat;
+    border-top: 2px solid #f1d9c1;
+    border-bottom: 2px solid #f1d9c1;
+}
+
+
+.bg_link_for a, .bg_link_for_nb a {
+    color : #000000;
+    text-decoration: none;
+    display : block;
+    padding:10px 30px 10px 10px;
+}
+
+/* 「→」リンク用 */
+.bg_link_for_left {
+    background: #FFFFFF url(../img/bg_link_for.png) left 50%  no-repeat;
+    border-top: 2px solid #f1d9c1;
+    border-bottom: 2px solid #f1d9c1;
+    text-align:center;
+}
+
+.bg_link_for_left a {
+    color : #000000;
+    text-decoration: none;
+    display : block;
+}
+
+/* 「↓」リンク用 */
+.bg_link_down {
+    background: #FFFFFF url(../img/bg_link_down.gif) 95% 50%  no-repeat;
+    border-top: 2px solid #f1d9c1;
+    border-bottom: 2px solid #f1d9c1;
+
+}
+.bg_link_down a {
+    color : #000000;
+    text-decoration: none;
+    display : block;
+}
+
+.bg_link_back img, .bg_link_back_nb img, .bg_link_for img, .bg_link_for_nb img {
+ border-style: none;
+ padding-right: 10px;
+}
+
+/* ライン画像用 */
+.bg_1000_line { height:3px; background: #ffffff url(../img/bg_1000_line.png); background-repeat: repeat-x;}
+.line_brown {margin: 0px 10px; height:10px; background: url(../img/line_brown.png); background-repeat: repeat-x;}
+.border_img_co_dott_top{background: #df5120 url("../img/bg_co_dott.png") left 0% ;background-repeat:repeat-x;height:5px;}
+.border_img_co_dott_bottom{background: #df5120 url("../img/bg_co_dott.png") left 100% ;background-repeat:repeat-x;height:5px;}
+.border_img_co_dott{background-image: url("../img/carryover_deco.gif");background-repeat:repeat-x;height:5px;}
+.border_img_carry_dott{background-image: url("../img/carryover_back_loop.gif") ;background-repeat:repeat-x;vertical-align : middle;height:39px;}
+.border_img_carry_dott span{display:block;padding-top:10px;color:#ffffff;}
+.border_img_black_dott{background-image: url("../img/carryover_black_back_loop.gif");background-repeat:repeat-x;vertical-align: middle;text-align: center;height:37px;}
+.border_img_black_dott span{display:block;padding-top:10px;font-size:small;color:#ffffff;}
+
+/* フッターリンク用 */
+.bg_footer_contents .bg_footer_link {
+    background: #e7e7e7;
+    border-top: 1px solid #CCCCCC;
+}
+.bg_footer_contents a {
+    color : #ff6600;
+    text-decoration: none;
+    font-weight:bold;
+    display : block;
+    padding-top : 15px;
+    padding-bottom : 15px;
+}
+.bg_footer_contents .icon {
+    width:23px;
+    text-align:center;
+    vertical-align:middle;
+}
+.bg_footer_contents table {
+    border-collapse:collapse;
+}
+.bg_footer_contents td {
+    color : #ff6600;
+    text-decoration: none;
+    font-weight:bold;
+    line-height: 1.2em;
+}
+.bg_footer_contents .top_link {
+    border-top: 1px solid #CCCCCC;
+}
+.bg_footer_contents .bottom_link {
+    border-bottom: 1px solid #CCCCCC;
+}
+.bg_footer_contents .for_link a {
+    background: #e7e7e7 url(../img/icon_link_01.png) right 50%  no-repeat;
+    padding-left: 15px;
+}
+.bg_footer_contents .for_link img {
+    padding-right : 5px;
+}
+.bg_footer_contents .footer_txt {
+    padding : 0px 0px 5px 10px;
+}
+.bg_footer_contents .home_link {
+    padding : 0px;
+}
+
+
+/* 入力フォーム用 */
+input, textarea { padding:5px;}
+
+/* エラー表示エリア用 */
+.errorbox {border: 1px solid #ff0000; background-color:#ffffff;margin:10px;}
+.errorbox .header {background: url(../img/bg_errorheader.png); background-repeat: repeat-x;
+    padding:3; font-size:80%;color:#ffffff; text-align:center;}
+.errorbox .contents {padding:10px 0px 0px 10px ; color:#ff0000;}
+.errorbox div:last-child {padding-bottom:10px;}
+
+/* フォームボタン用 */
+.form_btn {text-indent:-5000px;border:0px;display:block;margin:10px auto;}
+.form_btn2 {width:100%;display:block;border-top: 2px solid #f1d9c1;border-bottom: 2px solid #f1d9c1;border-left:none;border-right:none;font-size:100%;text-align:left;}
+.btn_back {background: #FFFFFF url(../img/bg_link_back.png) left 50%  no-repeat; padding-left:30px;}
+.btn_01 {width:300px; height:35px; background:transparent url(../img/btn_01.png) no-repeat left top;}
+.btn_02 {width:300px; height:35px; background:transparent url(../img/btn_02.png) no-repeat left top;}
+.btn_03 {width:300px; height:35px; background:transparent url(../img/btn_03.png) no-repeat left top;}
+.btn_04 {width:300px; height:35px; background:transparent url(../img/btn_04.png) no-repeat left top;}
+.btn_05 {width:300px; height:35px; background:transparent url(../img/btn_05.png) no-repeat left top;}
+.btn_06 {width:300px; height:35px; background:transparent url(../img/btn_06.png) no-repeat left top;}
+.btn_07 {width:300px; height:35px; background:transparent url(../img/btn_07.png) no-repeat left top;}
+.btn_08 {width:300px; height:35px; background:transparent url(../img/btn_08.png) no-repeat left top;}
+.btn_09 {width:300px; height:35px; background:transparent url(../img/btn_09.png) no-repeat left top;}
+.btn_10 {width:300px; height:35px; background:transparent url(../img/btn_10.png) no-repeat left top;}
+.btn_11 {width:300px; height:35px; background:transparent url(../img/btn_11.png) no-repeat left top;}
+.btn_12 {width:300px; height:35px; background:transparent url(../img/btn_12.png) no-repeat left top;}
+.btn_13 {width:300px; height:35px; background:transparent url(../img/btn_13.png) no-repeat left top;}
+.btn_14 {width:300px; height:35px; background:transparent url(../img/btn_14.png) no-repeat left top;}
+.btn_15 {width:300px; height:35px; background:transparent url(../img/btn_15.png) no-repeat left top;}
+.btn_17 {width:138px; height:35px; background:transparent url(../img/btn_17.png) no-repeat left top;}
+.btn_18 {width:138px; height:35px; background:transparent url(../img/btn_18.png) no-repeat left top;}
+.btn_19 {width:138px; height:35px; background:transparent url(../img/btn_19.png) no-repeat left top;}
+.btn_20 {width:138px; height:35px; background:transparent url(../img/btn_20.png) no-repeat left top;}
+.btn_21 {width:280px; height:35px; background:transparent url(../img/btn_21.png) no-repeat left top;}
+.btn_22 {width:300px; height:35px; background:transparent url(../img/btn_22.png) no-repeat left top;}
+.btn_23 {width:300px; height:35px; background:transparent url(../img/btn_23.png) no-repeat left top;}
+.btn_24 {width:300px; height:35px; background:transparent url(../img/btn_24.png) no-repeat left top;}
+.btn_25 {width:300px; height:35px; background:transparent url(../img/btn_25.png) no-repeat left top;}
+.btn_26 {width:300px; height:35px; background:transparent url(../img/btn_26.png) no-repeat left top;}
+.btn_27 {width:300px; height:35px; background:transparent url(../img/btn_27.png) no-repeat left top;}
+.btn_29 {width:300px; height:35px; background:transparent url(../img/btn_29.png) no-repeat left top;}
+.btn_30 {width:300px; height:35px; background:transparent url(../img/btn_30.png) no-repeat left top;}
+.mypage_btn_01_2 {width:148px; height:57px; background:transparent url(../img/btn_mypage_01_2.png) no-repeat left top;}
+.mypage_btn_02_2 {width:148px; height:57px; background:transparent url(../img/btn_mypage_02_2.png) no-repeat left top;}
+.mypage_btn_01_3 {width:300px; height:35px; background:transparent url(../img/btn_mypage_01_3.png) no-repeat left top;}
+.mypage_btn_03 {width:147px; height:35px; background:transparent url(../img/btn_mypage_03.png) no-repeat left top;}
+.mypage_btn_04 {width:147px; height:35px; background:transparent url(../img/btn_mypage_04.png) no-repeat left top;}
+.mypage_btn_05 {width:147px; height:35px; background:transparent url(../img/btn_mypage_05.png) no-repeat left top;}
+.mypage_btn_06 {width:147px; height:35px; background:transparent url(../img/btn_mypage_06.png) no-repeat left top;}
+.mypage_btn_07 {width:56px; height:26px; background:transparent url(../img/btn_mypage_07.png) no-repeat left top;}
+
+/* 角丸ボックス用 */
+.aside{background-color:#ffffff; border-radius: 30px;-webkit-border-radius:8px; -moz-border-radius: 8px; padding:10px; margin:0px 15px 10px; text-align:center;}
+
+
+/****************************************
+  画面カテゴリー別設定
+****************************************/
+
+/* 背景 */
+.agreement_toto, .agreement_naash, .howto, .announce, .faq, .sitemap, .terms, .privacy, .sct, .inquiry, .allowmodel, .resign, .profitable, .jibunbank
+,.entry, .regist, .login, .big, .history, .member_resign, .mail {
+background-color:#e7f7f7;
+}
+.guidance, .profile{
+background-color:#ffffff;
+}
+
+/* SCR-001 HOME用 */
+.bg_home_title { background: #ffffff url(../img/bar_debut_loop.jpg); background-repeat: repeat-x; text-align:left;}
+.home .sub_ttl{color: #ffffff; text-shadow:1px 1px gray;font-weight:bold;}
+.home .bg_link_for {border-bottom:1px;}
+.home .bg_link_for {background: #ffffff url(../img/bt_about_arrow.gif) 99% 50%  no-repeat;}
+.home .bg_link_for .guidance_main{font-size:80%; font-weight:bold;text-align:left;}
+.home .bg_link_for .guidance_sub{font-size:70%;}
+.home .bg_link_for img {padding-right:5px;}
+.home .txt {padding:5px 10px; font-size:70%;}
+.home .bg_top_contents {background-color:#fffbbe; padding-bottom:5px;}
+.home .btn_area {padding:10px 0px 5px 0px;}
+.home .btn_area a {text-decoration:none;}
+.home .bnr_area {margin-top:5px; text-align:center;}
+.home .news_area .sub_ttl {text-align:left;padding:8px;}
+.home .news_area .contents {height: 100px; padding: 10px;text-align:left;}
+.home .aboutbig_area table {width:100%;}
+.home .aboutbig_area td {width:50%;background: #FFFFFF url(../img/bg_bt_about.gif);}
+.home .aboutbig_area td a{width:100%;height:100%;display:block;}
+.home .aboutbig_area tr td:first-child {text-align:right;}
+.home .bg_footer_contents .top_link a {padding:10px;border-top:1px;}
+.home .bg_footer_contents a {padding:0px;}
+.home .bg_footer_contents table {width:100%;}
+.home .bg_footer_contents td {height:34px; width:50%;background: #FFFFFF url(../img/bg_bt_foot.gif);}
+.home .bg_footer_contents td a{display:block;}
+.home .bg_footer_contents tr td:first-child {text-align:right;}
+
+/* SCR-002 仮会員登録用 */
+.bg_entry_title { background: #ffffff url(../img/bg_title_02.png); background-repeat: repeat-x;}
+.entry .par{ padding:10px; }
+/*.entry .par_indent{padding:10px 10px 10px 30px; text-indent:-20px;}*/
+.entry .par_indent{padding:10px;}
+.entry .par_indent_td{width:20px;text-align:center;}
+.entry .bg_attention_contents {margin:10px; padding:10px;}
+.entry .bg_attention_contents table th, .entry .bg_attention_contents table td {text-align:left; padding:5px;}
+.entry .bg_attention_contents table td {color:#ff0000; font-weight:bold; }
+.entry .bg_body_contents .hr { height:5px; border-bottom: 3px dotted #639431; margin:10px;}
+.entry .bg_body_contents .bank {border-color:#000063;}
+.entry .bg_label_sub_ttl {background-color :#4ac6c4;color:#ffffff; padding:10px 5px; text-align:left;}
+.entry .bg_label_sub_ttl img {padding-right:5px;}
+.entry .bg_title_contents {font-size:90%;}
+.entry .bg_title_contents2 {font-size:90%;}
+.entry .bg_bankheader {margin-top:10px;}
+.entry input[type="text"],.entry input[type="password"] {width:300px;}
+.entry select{width:250px;}
+
+/* SCR-002 au one toto約款用 */
+.agreement_toto {}
+.agreement_toto .art{ padding:10px;}
+.agreement_toto .ttl{ font-weight:bold; }
+.agreement_toto .txt{ margin-top:5px; margin-bottom: 30px;}
+.agreement_toto table {line-height: 1.5em; }
+.agreement_toto .contents_list { padding-bottom:30px;}
+
+/* SCR-002 toto約款用 */
+.agreement_naash {}
+.agreement_naash .art{ padding: 10px;}
+.agreement_naash .ttl{ font-weight: bold; }
+.agreement_naash .txt{ margin-top:5px; margin-bottom: 30px;}
+.agreement_naash table {line-height: 1.5em; }
+
+/* SCR-003 本会員登録用*/
+.bg_regist_title { background: #ffffff url(../img/bg_title_02.png); background-repeat: repeat-x;}
+.regist .par{ padding:10px; }
+.regist .par_indent{padding:10px 10px 30px 30px; text-indent:-20px;}
+.regist .bg_attention_contents {padding:10px; background-image : url(../img/bg_bankheader.png); text-align:center; font-weight:bold;color:#000063;}
+.regist .bg_attention_contents table th, .regist .bg_attention_contents table td {text-align:left; padding:5px;}
+.regist .bg_attention_contents table td {color:#ff0000; font-weight:bold; }
+.regist .bg_body_contents .hr { height: 5px; border-bottom: 3px dotted #397bff; margin: 10px;}
+.regist .bg_body_contents .bank {border-color:#000063;}
+.regist .bg_label_sub_ttl {background-color :#4ac6c4;color:#ffffff; padding:10px 5px; text-align:left;}
+.regist .bg_label_sub_ttl img {padding-right:5px;}
+.regist .bg_title_contents {font-size:100%;}
+.regist input[type="text"],.regist input[type="password"] {width:300px;}
+
+/* SCR-004 会員ログイン用*/
+.bg_login_title { background: #ffffff url(../img/bg_title_02.png); background-repeat: repeat-x;}
+.login .par{ padding:10px; }
+.login .par_indent{padding:0px 10px 10px 30px; text-indent:-20px;}
+.login .bg_attention_contents{margin:10px; padding:10px 20px;background-color:#ffff64;}
+.login input[type="text"],.login input[type="password"] {width:300px;}
+
+/* SCR-006 ｶﾞｲﾀﾞﾝｽ用 */
+.guidance .autotable { margin : auto; }
+.guidance .par{ padding:10px 10px 20px 10px; }
+.guidance .atn{ padding:10px; background-color:#ffd1ff; text-align:center; }
+.guidance .contents {padding: 10px 10px  20px 10px;}
+.guidance table .contents{padding: 10px;}
+.guidance .contents_main {background-color:#ffffcd;}
+.guidance .lead_regist{padding: 5px;}
+.guidance .lead_link{padding: 15px 5px 5px 5px; }
+.guidance .lead_label{font-size:80%; padding: 10px 5px 5px 5px;}
+.guidance_link{ margin-top: 15px;text-align: center;}
+.notice { line-height: 1.5em; padding: 10px; font-size: 80%;}
+.bg_cam_head{ background: url(../img/cam_head_bg.png); background-repeat: repeat-x;}
+.bg_cam_main, .bg_kami_300, .bg_kami_3step, .bg_kami_3p_2, .bg_kami_mobile, .bg_kami_chance{ background-color: #f6ad23;}
+
+/* SCR-007 使用方法用 */
+.howto{ font-size: 100% ; }
+.howto .par{ padding:10px 10px 20px 10px; }
+.howto .par_indent{padding:10px 10px 10px 30px; text-indent:-20px;}
+.howto .ttl{ font-weight:bold; }
+.howto .ttl1 { text-align:center; padding:10px 5px 0px 5px; }
+.howto .ttl1 .price { font-size:120%; font-weight:bold; }
+.howto .ttl1 .comment {}
+.howto .atn1 { background-color:#ffff66; text-align:center; padding:10px; }
+.howto .atn2 { background-color:#ffd1dd; text-align:center; padding:10px; }
+.howto .txt{}
+.howto .btm_link_right { padding:5px 5px 20px 5px; }
+.howto .btn table {margin :auto; width: 250; padding: 0px 15px 0px 15px; }
+.howto .btn td { text-align: center; }
+.howto .typebig_big { color : #ff0000;}
+.howto .typebig_big1000{ color : #F969B1; }
+.howto .typebig_minibig{ color : #709803; }
+.howto .typebig_box{ margin:10px 10px; padding:5px 10px 15px 10px; background: #E0E0E0; }
+.howto .purchase_img { margin: 15px 0px 5px 0px;}
+.howto .bg_grd_yellow_1, .howto .bg_grd_yellow_2 { text-align:center; }
+.bg_howto_title { background: #ffffff url(../img/bg_title_02.png); background-repeat: repeat-x;}
+
+/* SCR-007 使用方法用 */
+.big{ font-size: 100% ; }
+.big .bg_attention_contents {padding:10px; background-color:#ffff00; text-align:center;}
+.big .bg_green{ background-color:#cbffcb ; text-align:left; margin:10px;padding:5px;}
+.big .bg_big{ background-color:#ff2900 ; text-align:center; padding:5px;}
+.big .bg_big1000{ background-color:#fb6bb6 ; text-align:center; padding:5px;}
+.big .bg_minibig{ background-color:#a7d417 ; text-align:center; padding:5px;}
+.big .vs_table td {padding:2px;}
+.big .carryover {background-color:#de5221; color:#ffffff; text-align:center;}
+.big .par_indent{padding:10px 10px 10px 30px; text-indent:-20px;}
+
+/* SCR-010 お知らせ用 */
+.announce .par{padding: 5px 10px;}
+.announce .ttl{padding: 10px 0px;}
+.announce .txt{}
+.announce .dtl_ttl{background-color:#ffff00; padding:10px;}
+.announce .dtl_txt{padding: 20px 10px;}
+.announce .hr { height: 20px;border-bottom: 1px dotted #AFC3C3;}
+
+/* SCR-011 ｽﾎﾟｰﾂ振興助成活動画面用 */
+.naash{}
+
+/* SCR-012 FAQ用 */
+.faq .bg_title_contents{ margin-bottom: 5px; }
+.faq .lst{ padding:20px 10px; line-height: 2.0em;}
+.faq table {width:100%;}
+.faq td { vertical-align:top; padding:5px;}
+.faq .atn{ background-color : #ffff00; text-align: center; padding: 10px; font-weight:bold;}
+.faq .dtl_q {background-color:#ffff00;}
+.faq .dtl_q td {vertical-align:middle;}
+/*.faq .dtl_q .sqr {background-color:#fc6300; width:20px; padding: 2px 5px; text-align:center;}*/
+.faq .dtl_q .sqr {background-color:#fc6300; padding: 2px 5px; text-align:center;}
+.faq .dtl_q .idx{ width: 10px; }
+.faq .dtl_q .txt{}
+.faq .dtl_a{background-color:#e7f7f7;}
+.faq .dtl_a .sqr {background-color:#ffff00; padding: 2px 5px; text-align:center;}
+.faq .dtl_a .idx{ width:30px;}
+.faq .dtl_a .txt{}
+.faq .dtl_a .btm_link_right{ padding:0px 5px 5px 5px; }
+.faq .btm_link_right a{line-height:2em;}
+
+/* SCR-013 ｻｲﾄﾏｯﾌﾟ用 */
+.sitemap .atn{ background-color:#ffff00; margin-bottom: 1px; padding: 10px 5px;}
+.sitemap .lst {line-height:2.0em; padding-left:10px; padding-bottom:20px;}
+.sitemap .contents {padding-top:20px;}
+
+/* SCR-014 利用規約用 */
+.terms .atn{ background-color:#ffff00; margin-bottom: 1px; padding: 10px;}
+.terms .contents {padding-top:20px; padding-bottom:10px;}
+
+/* SCR-015 ﾌﾟﾗｲﾊﾞｼｰﾎﾟﾘｼｰ用 */
+.privacy .par{ padding:20px 10px 10px 10px; }
+.privacy .ttl{ font-weight:bold; }
+.privacy .hr { height: 5px; border-bottom: 1px dotted #AFC3C3; margin: 10px;}
+.privacy .txt{}
+
+/* SCR-016 特定商取引法用 */
+.sct .par{}
+.sct .ttl{padding:5px 0px 0px 0px;}
+.sct .txt{padding:0px 5px 5px 5px;}
+.sct .hr { height: 2px; border-bottom: 1px dotted #AFC3C3; margin: 10px 0px;}
+.sct .contents {padding:20px 10px  30px  10px;}
+
+/* SCR-017 マイページ用 */
+.bg_mypage_title { background: #ffffff url(../img/bg_title_02.png); background-repeat: repeat-x;}
+.mypage .bg_top_contents{background-color:#fffbbe; padding-top:5px; padding-bottom:10px;}
+.mypage .bg_sub_ttl{background: #FFFFFF url(../img/bg_title_01.png); background-repeat: repeat-x; padding:10px; text-align:left;}
+.mypage .sub_ttl{color: #FFFFFF; text-shadow:1px 1px gray;font-weight:bold;}
+.mypage .par{padding:5px;}
+.mypage .mar{margin:15px;}
+.mypage .btn_area {padding:10px 0px;}
+.mypage .btn_area td{padding:0px 5px 10px 5px;}
+.mypage .btn_area td input {padding:0px; margin:0px;}
+.mypage .bnr_area {margin-top:5px; text-align:center;}
+.mypage .news_area .sub_ttl {text-align:left;padding:8px;}
+.mypage .news_area .contents {height: 100px; padding: 10px;text-align:left;}
+.mypage .txt {padding:5px 10px; font-size:70%;}
+.mypage .aboutbig_area table {width:100%;}
+.mypage .aboutbig_area td {width:50%;background: #FFFFFF url(../img/bg_bt_about.gif);}
+.mypage .aboutbig_area td a{width:100%;height:100%;display:block;}
+.mypage .aboutbig_area tr td:first-child {text-align:right;}
+
+/* SCR-018 神に祈って購入用 */
+.bg_kami_main_top {background-color: #f6ad23;}
+.promotion .par { padding:10px;}
+.promotion .sub_ttl {padding: 5px 10px; font-weight:bold;}
+.promotion .sub_ttl img{width:63px; height:33px;}
+.promotion .sub_ttl td{border-left: 1px solid #f1d9c1;}
+.promotion .next {border-top: 2px solid;border-bottom: 2px solid; text-align:center;}
+.promotion .next a { display : block; padding:10px; color:#000000; text-decoration: none;}
+.promotion .next_alert {border-top: 2px none;border-bottom: 2px none; text-align:left;}
+.promotion .select_item td {height:50%;border:2px solid #f1d9c1; vertical-align:middle; font-weight:bold;}
+.promotion .select_item td:first-child {border-left:none;}
+.promotion .select_item td:last-child {border-right:none;}
+.promotion .select_item td a {width:100%; height:100%; color:#000000; text-decoration: none;display:block;}
+.promotion .select_item img {margin:8px 0px;}
+.promotion .contents_list .select_item td {width:33%; text-align:left; font-size:80%; border-bottom:none;}
+.promotion .contents_list .item_ttl {display:block;padding:10px 0px 10px 2px;}
+.promotion .yubi_kami .select_item .item_ttl, .promotion .basyo_kami .select_item .item_ttl  {display:block;margin-bottom:10;}
+.promotion .profile td.par {padding-bottom:30px;}
+
+.profile .bg_link_for, .promotion .bg_link_for, .promotion .bg_link_back {font-weight:bold;}
+.profile .centertable { margin : auto;}
+.profile table th {font-weight:bold; text-align:left; padding:10px; vertical-align:middle;}
+.profile table .padtd {padding: 10px;}
+.profile .bg_kami_main {background:#ffae1d;}
+.profile .par{ padding:10px; }
+.profile .ttl, .promotion .ttl{background-repeat: repeat-x; font-weight: bold; padding:5px 0px 0px 10px; color: #FFFFFF; text-shadow:1px 1px gray;}
+.profile .ttl img {padding-right: 5px;}
+.profile .sub_ttl {padding: 5px 10px; font-weight:bold;}
+
+.yubi_kami .ttl{background: url(../img/yubi_loop.png);}
+.yubi_kami .sub_ttl {background-color: #ffdfd2;}
+.yubi_kami .bg_link_back, .yubi_kami .bg_link_for, .yubi_kami .select_item td, .yubi_kami .next{border-color:#ffdfd2;}
+.yubi_kami .bg_link_for {border-color:#ffdfd2;}
+.yubi_kami .font {border-color:#ffdfd2;}
+.profile .bg_yubi_kami {background-color:#fff5f3;}
+.profile .bg_yubi_kami_s {background-color:#fff5f3;}
+.promotion .bg_yubi_kami_up {background-color:#fef1eb;}
+.promotion .bg_yubi_kami_comp {background-color:#fff4f0;}
+.promotion .yubi_kami .select_item td {width:20%; text-align:center;font-size:75%;}
+
+.kazu_kami .ttl{background: url(../img/kazu_loop.png);}
+.kazu_kami .sub_ttl {background-color: #c4e0ec;}
+.kazu_kami .bg_link_back, .kazu_kami .bg_link_for, .kazu_kami .next {border-color:#c4e0ec;}
+.profile .bg_kazu_kami {background-color:#e6f1f7;}
+.profile .bg_kazu_kami_s {background-color:#e6f1f7;}
+.promotion .bg_kazu_kami_up {background-color:#e6f1f7;}
+.promotion .bg_kazu_kami_comp {background-color:#e2f0f8;}
+
+.basyo_kami .ttl{background: url(../img/basyo_loop.png);}
+.basyo_kami .sub_ttl {background-color: #f7cdd9;}
+.basyo_kami .bg_link_back, .basyo_kami .bg_link_for, .basyo_kami .select_item td, .basyo_kami .next {border-color:#f7cdd9;}
+.profile .bg_basyo_kami {background-color:#fbeaf0;}
+.profile .bg_basyo_kami_s {background-color:#fbeaf0;}
+.promotion .bg_basyo_kami_up {background-color:#fbeaf0;}
+.promotion .bg_basyo_kami_comp {background-color:#fcf0f4;}
+.promotion .basyo_kami .select_item td {width:20%; text-align:center;font-size:75%;}
+
+/* SCR-018 購入画面用 */
+.purchase .bg_big{background-color:#ff2900;text-align:center; margin:0px 0px 10px;}
+.purchase .bg_big1000{background-color:#f76bb5;text-align:center; margin:0px 0px 10px;}
+.purchase .bg_minibig{background-color:#a5d615;text-align:center; margin:0px 0px 10px;}
+.purchase .big_btn a, .purchase .big1000_btn a, .purchase .minibig_btn a {display:block;text-decoration: none;padding:5px;font-size:110%; font-weight:bold;}
+.purchase .big_btn{background: #FFFFFF url(../img/bg_buybtn_BIG.png); background-repeat: repeat-x; border-top: 2px solid #ffffff; border-bottom: 2px solid #ffffff; text-align:center;}
+.purchase .big1000_btn{background: #FFFFFF url(../img/bg_buybtn_BIG1000.png); background-repeat: repeat-x; border-top: 2px solid #ffffff; border-bottom: 2px solid #ffffff; text-align:center;}
+.purchase .minibig_btn{background: #FFFFFF url(../img/bg_buybtn_miniBIG.png); background-repeat: repeat-x; border-top: 2px solid #ffffff; border-bottom: 2px solid #ffffff; text-align:center;}
+.purchase .par{padding:10px;}
+.purchase .mar{margin:10px 10px 20px 10px;}
+.purchase .notice{padding:10px 20px; font-size:100%;}
+.purchase .notice .par_indent{padding:0px 0px 2px 20px; text-indent:-20px;}
+.purchase .sub_ttl{background: #FFFFFF url(../img/bg_title_01.png); background-repeat: repeat-x; padding:5px; color:#ffffff; text-align:center;}
+.purchase .white_block{background-color:#ffffff; padding:3px; text-align:center;}
+.purchase .par{padding:10px;}
+.purchase .par td input{padding:0px; margin:0px;}
+.purchase .par_indent_td{width:20px;text-align:center;}
+
+/* SCR-018 キャンペーン特典利用用 */
+.bg_campaign_title { background: #ffffff url(../img/bg_title_02.png); background-repeat: repeat-x;}
+.campaign .par{ padding: 10px;}
+.campaign .mar{margin:10px 10px 20px 10px;}
+.campaign .white_block{background-color:#ffffff; margin:5px 15px 0px 15px; padding:3px;}
+.campaign .bg_big1000{ background-color:#f76bb3 ; text-align:center; margin-top:10px;}
+.campaign .purchase_confirm_table {width:100%; text-align:center;}
+.campaign .purchase_confirm_table td:first-child{width:35%;}
+
+/* SCR-019 当せん確認/購入履歴用*/
+.bg_history_title { background: #ffffff url(../img/bg_title_02.png); background-repeat: repeat-x;}
+.history .bg_title_01 {background-color:#E7F7F7; padding:10px 3px;}
+.history .subttl {color:#ffffff; text-shadow: 2px 2px 0 #888888;font-weight:bold;text-align:center;}
+.history .hr { height: 2px; border-bottom: 1px dotted #AFC3C3; margin: 10px 0px;}
+.history .more {background-color:#b1b1b1; color:#ffffff; font-weight:bold; padding:10px; margin:10px 0px; text-align:center;}
+.history .par {padding:10px 10px  20px  10px;}
+.history .holdhistory {padding:10px 0px;}
+.history .holdhistory table{margin-bottom:10px;}
+.history .holdhistory table td {padding:5px; vertical-align:bottom;}
+.history .holdhistory table td img {text-align:right;padding:0px 10px;}
+.history .bg_bell{ background: url(../img/bg_bell.png) center 50% no-repeat; color:#ffffff; padding: 5px; margin:5px;}
+.history .bg_bell img {padding-right:5px;}
+.history .bg_grd_yellow_1 {text-align:center; font-weight:bold;}
+.history .reference {padding:10px;}
+.history .reference table,.history, .history .reference th, .reference td {border:1px solid gray;}
+.history .reference th {background-color:#ffffcd; font-weight:normal; text-align:left;width:45%;}
+.history .reference td {background-color:#ffffff;}
+.history .reference th, .history .reference td {padding:5px;}
+.history .bg_title_01 td {vertical-align:top;font-size:80%; color:#ffffff; text-shadow: 1px 1px 0 #888888; padding:4px 5px;}
+.history .bg_title_02 td {vertical-align:top;font-size:100%; font-weight:bold; color:#ffffff; text-shadow:2px 2px 0 #888888; padding:5px 5px;}
+.history .reference_list {background:#ffff00; margin:10; padding:10px;}
+.history .reference_list td {padding:5px; text-align:left;}
+.history .reference_list tr, .rank_list tr{border:1px solid gray;}
+.history .detail_list {padding:5px 10px 10px 10px;}
+.history .detail_list table {background:#ffffff;}
+.history .detail_list th {background:#de5221; color:#ffffff; font-weight:normal;}
+.history .detail_list th, .history .detail_list td {border:1px solid gray; padding:5px; text-align:center;}
+.history .rank_list {padding:10px 20px 20px 10px;}
+.history .rank_list th {text-align:center; color:#ffffff; font-weight:normal; width:15%;}
+.history .rank_list th, .history .rank_list td {padding:5px; vertical-align:middle;}
+.history .subcontents {text-align:center; padding:10px;}
+.history .carryover {background-color:#de5221; color:#ffffff; text-align:center;}
+.history .notice {padding:10px 20px; font-size:100%;}
+.history .notice .par_indent{padding:0px 0px 2px 20px; text-indent:-20px;}
+.history .result {background-color:#ffff00; margin:10px; padding:10px; text-align:center;}
+.history .game_info {margin:10px 0px;}
+.history .game_info table{width:100%;}
+.history .game_info th {background-color:#ffffff; text-align:center; font-weight:normal;}
+.history .game_info td {background-color:#ffff9c}
+.history .game_info th, .history .game_info td {padding:0px;}
+.history .game_info .win {color:#ff0000;}
+.history .game_info .lose {color:#003194;}
+.history .game_info .expect {color:#0da454;}
+.history .par_indent_td{width:20px;text-align:center;}
+
+/* SCR-020 口座変更用 */
+.bankchange .bg_title_contents{font-size:90%; background: url(../img/bg_yellowheader.png);background-repeat:repeat-x;font-weight: bold; padding:5px 10px; text-align:center;}
+.bankchange .par{padding:10px;}
+.bankchange .par_indent{padding:10px 10px 10px 30px; text-indent:-20px;}
+.bankchange .mar{margin:15px;}
+.bankchange .bg_body_contents .hr { height: 5px; border-bottom: 3px dotted #6394ff; margin: 10px;}
+.bankchange .bg_link_for{padding:5px;}
+.bankchange .bg_bankheader {margin-top:10px;}
+.bankchange input[type="text"] {width:300px;}
+.bankchange select{width:250px;}
+
+/* SCR-022 会員情報変更/解約画面 */
+.bg_member_resign_title { background: #ffffff url(../img/bg_title_02.png); background-repeat: repeat-x;}
+.member_resign .par{ padding:10px; }
+
+/*SCR-023-001 メール配信設定画面 */
+.bg_mail_title { background: #ffffff url(../img/bg_title_02.png); background-repeat: repeat-x;}
+.mail .par{ padding:10px; }
+.mail .par_indent{padding:10px 10px 10px 30px; text-indent:-20px;}
+.mail .bg_grd_yellow_1 img {padding-right:5px;}
+
+/* SCR-025 お問い合わせ用 */
+.inquiry .par{ padding: 20px 0px 30px 10px; }
+.inquiry .par .detail{ padding: 5px 0px 10px 0px; }
+
+/* SCR-026 対応機種一覧用 */
+.allowmodel .par { padding:20px 0px 30px 10px; }
+
+/* SCR-027 解約用 */
+.bg_resign_title { background: #ffffff url(../img/bg_title_02.png); background-repeat: repeat-x;}
+.resign .par{ padding:20px 10px; }
+.resign .atn1{ background-color : #ffff00; text-align: center; padding:10px; }
+.resign .atn2{ color: #ffffff; background-color : #ff0000; text-align: center; padding:1px;}
+.resign .atn3{ color: #ff0000; background-color : #ffffff; text-align: left; padding:10px; }
+.resign ul {padding:10px 0px; margin-left:20px;}
+.resign .bg_grd_yellow_1 img {padding-right:5px;}
+
+/* SCR-028 会員登録ｷｬﾝﾍﾟｰﾝ用 */
+.entry_campaign{}
+.entry_campaign .par{ background-color:#e7f7f7;}
+.entry_campaign .txt{ padding: 10px;}
+.entry_campaign .txt .detail { padding: 5px 0px 20px 10px;}
+.entry_campaign .txt img { padding-right: 5px;}
+.bg_1000_main { background-color: #f5a079; }
+.entry_campaign .line_brown {margin: 20px 10px;}
+
+/* SCR-029 au one totoのﾒﾘｯﾄ紹介ﾍﾟｰｼﾞ用 */
+.advantage{}
+
+/* SCR-030 じぶん銀行説明 */
+.jibunbank .atn1{ font-size:; color: #ffffff; text-align:center; background-color:#EE0000; padding:5px;}
+.jibunbank .atn2{ font-size:; text-align:center; background-color:#ffff00; padding: 10px; }
+.jibunbank .par{ padding: 10px; }
+.bg_jibun_main{ height:4px; background: url(../img/jibun_main_bg.png); background-repeat: repeat-x;}
+.jibunbank .lead_regist{padding: 5px;}
+.jibunbank .lead_link{padding: 5px; }
+.jibunbank .lead_label{font-size:100%; padding: 5px;}
+
+/* SCR-031 対応機種外用*/
+.denymodel .bg_footer_contents { border-top: 1px solid #C0C0C0;}
+.denymodel .par { padding:20px 0px 30px 10px; }
+
+/* SCR-324-001 共通エラー用*/
+.bg_error_title { background: #ffffff url(../img/bg_title_02.png); background-repeat: repeat-x;}
+
+/* キャンペーン001～004 */
+
+/* CSS Document */
+
+.base {
+    margin: 0;
+    overflow-x: hidden;
+    -webkit-user-select: none;
+    -webkit-text-size-adjust: none;
+
+}
+
+.base a:link {color:#FF9900;
+}
+
+.base .center {text-align:center;
+
+}
+
+.base .campaign {text-align:center;
+padding-top:10px;
+margin-bottom:10px;
+padding-bottom:10px;
+background-color:#ffffcc;
+
+}
+
+.base .bg_yellow {text-align:center;
+padding-top:10px;
+padding-bottom:10px;
+background-color:#ffffcc;
+
+}
+
+.base .txt {margin:10px;
+text-align:left;
+font-size:14px;
+line-height:18px;
+
+}
+
+.base .txt1 {margin:10px;
+text-align:left;
+font-size:10px;
+
+}
+
+.base .txt2 {text-align:center;
+font-size:18px;
+}
+
+.base .txt3 {margin-left:10px;
+margin-right:10px;
+margin-bottom:10px;
+text-align:left;
+font-size:14px;
+line-height:18px;
+
+}
+
+.base .txt4 {margin-left:10px;
+margin-right:10px;
+margin-bottom:10px;
+text-align:right;
+font-size:18px;
+line-height:18px;
+
+}
+
+.base .txt5 {text-align:center;
+font-size:18px;
+margin:10px 0px;
+}
+
+.base .btn {text-align:center;
+margin-top:15px;
+margin-bottom:15px;
+
+}
+
+.base .ttl {text-align:center;
+background-image:url(img/01_bg.png);
+background-repeat:repeat-x;
+}
+
+.base .bg {background-color:#f6ad25;
+text-align:center;
+}
+
+.base .red {color:#FF0000;
+
+}
+
+.base .pict {margin-bottom:10px;
+text-align:center;
+}
+
+
+.base .hr {background-color:#b5b5b5;
+height:1px;
+margin-bottom:10px;
+}
+
+
+
+.base .hr2 {background-color:#b5b5b5;
+height:1px;
+}
+
+
+
+/* キャンペーン005～006 */
+
+base0506{
+    margin: 0;
+    overflow-x: hidden;
+    -webkit-user-select: none;
+    -webkit-text-size-adjust: none;
+
+}
+
+.base0506 a:link {color:#FF9900;
+}
+
+.base0506 .center {text-align:center;
+
+}
+
+.base0506 .campaign {text-align:center;
+padding-top:10px;
+margin-bottom:10px;
+padding-bottom:10px;
+background-color:#ffffcc;
+
+}
+
+.base0506 .bg_yellow {text-align:center;
+padding-top:10px;
+padding-bottom:10px;
+background-color:#ffffcc;
+
+}
+
+.base0506 .txt {margin:10px;
+text-align:left;
+font-size:14px;
+line-height:18px;
+
+}
+
+.base0506 .txt1 {margin:10px;
+text-align:left;
+font-size:10px;
+
+}
+
+.base0506 .txt2 {text-align:center;
+font-size:18px;
+}
+
+.base0506 .txt3 {margin-left:10px;
+margin-right:10px;
+margin-bottom:10px;
+text-align:left;
+font-size:14px;
+line-height:18px;
+
+}
+
+.base0506 .txt4 {margin-left:10px;
+margin-right:10px;
+margin-bottom:10px;
+text-align:center;
+font-size:14px;
+line-height:18px;
+
+}
+
+.base0506 .txt5 {text-align:right;
+font-size:12px;
+margin-right:10px;
+}
+
+.base0506 .txt6 {margin-left:10px;
+margin-right:10px;
+margin-bottom:10px;
+text-align:right;
+font-size:18px;
+line-height:18px;
+
+}
+
+.base0506 div.txt3 div.txt7 {text-align:center;
+font-size:18px;
+margin:10px 0px;
+}
+
+
+.base0506 .btn {text-align:center;
+margin-top:15px;
+margin-bottom:15px;
+
+}
+
+.base0506 .ttl {text-align:center;
+background-image:url(img/01_bg.png);
+background-repeat:repeat-x;
+}
+
+.base0506 .bg {background-color:#f6ad25;
+text-align:center;
+}
+
+.base0506 .red {color:#FF0000;
+
+}
+
+.base0506 .pict {margin-bottom:10px;
+text-align:center;
+}
+
+.base0506 .page_top {background-image:url(img/01_bg2.png);
+background-repeat:repeat-x;
+display:block;
+
+}
+
+.base0506 .footer {background-color:#e7e7e7;
+padding-top:10px;
+}
+
+.base0506 .hr {background-color:#b5b5b5;
+height:1px;
+margin-bottom:10px;
+}
+
+.base0506 .hr2 {background-color:#b5b5b5;
+height:1px;
+}
+
+/* キャンペーン007～008 */
+
+base0708{
+    margin: 0;
+    overflow-x: hidden;
+    -webkit-user-select: none;
+    -webkit-text-size-adjust: none;
+
+}
+
+.base0708 a:link {color:#FF9900;
+}
+
+.base0708 .center {text-align:center;
+
+}
+
+.base0708 .campaign {text-align:center;
+padding-top:10px;
+margin-bottom:10px;
+padding-bottom:10px;
+background-color:#ffffcc;
+
+}
+
+.base0708 .bg_yellow {text-align:center;
+padding-top:10px;
+padding-bottom:10px;
+background-color:#ffffcc;
+
+}
+
+.base0708 .txt {margin:10px;
+text-align:left;
+font-size:14px;
+line-height:18px;
+
+}
+
+.base0708 .txt1 {margin:10px;
+text-align:left;
+font-size:10px;
+
+}
+
+.base0708 .txt2 {text-align:center;
+font-size:18px;
+}
+
+.base0708 .txt3 {margin-left:10px;
+margin-right:10px;
+margin-bottom:10px;
+text-align:left;
+font-size:14px;
+line-height:18px;
+
+}
+
+.base0708 .txt4 {margin:10px;
+text-align:right;
+font-size:18px;
+line-height:18px;
+
+}
+
+.base0708 .txt5 {text-align:center;
+font-size:18px;
+margin:10px 0px;
+}
+
+.base0708 .txt6 {margin-left:10px;
+margin-right:10px;
+font-size:16px;
+text-align:left;
+}
+
+.base0708 .btn {text-align:center;
+margin-top:15px;
+margin-bottom:15px;
+
+}
+
+.base0708 .ttl {text-align:center;
+background-image:url(img/01_bg.png);
+background-repeat:repeat-x;
+}
+
+.base0708 .bg {background-color:#f6ad25;
+text-align:center;
+}
+
+.base0708 .red {color:#FF0000;
+
+}
+
+.base0708 .pict {margin-bottom:10px;
+text-align:center;
+}
+
+.base0708 .page_top {background-image:url(img/01_bg2.png);
+background-repeat:repeat-x;
+display:block;
+
+}
+
+.base0708 .footer {background-color:#e7e7e7;
+padding-top:10px;
+}
+
+.base0708 .hr {background-color:#b5b5b5;
+height:1px;
+margin-bottom:10px;
+}
+
+.base0708 .hr2 {background-color:#b5b5b5;
+height:1px;
+}
+
+.base0708 .big1000 {background-color:#40a1ce;
+text-align:center;
+width:100%;
+
+}
+
+.base0708 .bg_rb {background-color:#eaf4ff;
+padding-bottom:10px;
+margin-bottom:15px;
+
+}
+
+/*じぶん銀行連携キャンペーン用*/
+
+.canpaign .bg_orange_obi {text-align:center; background-color:#f56119;}
+.canpaign .bg_yellow { font-size:12px; padding:10px 10px; background-color:#fefabd;}
+.canpaign .lead_link{text-align: center; padding: 10px; text-align:center;}
+.canpaign .lead_label{color : #ff0000; padding: 10px; font-size:80%; text-align:center;}
+.canpaign .atn2{ font-size:; text-align:center; background-color:#ffff00; padding: 10px; }
+.canpaign .obi {background-color:#f56119; margin:10px;}
+.canpaign .txt {font-size:12px; margin:0px 10px; line-height:14px;}
+.canpaign .txt2 {font-size:12px; margin:0px 10px 10px 10px; line-height:14px;}
+.canpaign .red {color:#FF0000;}
+.canpaign .ful_img {text-align:center; margin-bottom:10px;}
+
+/*じぶん銀行詳細ページ用*/
+
+.profitable .orange_line {background-color:#f08200; height:2px;}
+.profitable .top {text-align:center;}
+.profitable .bg_yellow {background-color:#fefabd; padding-bottom:10px;} 
+.profitable .bg_yellow div.h1 {text-align:center; padding:10px 0px; font-size:16px; color:#666666;}
+.profitable .cpn {text-align:center; padding-bottom:10px;}
+.profitable .txt {font-size:12px; margin:0px 10px; line-height:14px;}
+.profitable .txt2 {font-size:12px; margin:0px 10px 10px 10px; line-height:14px;}
+.profitable .bg_yellow div.lead_cpn {text-align:right; margin:10px;}
+.profitable .bg_yellow div.lead_label {color:#ff0000; padding:10px; font-size:80%; text-align:center;}
+.profitable .bg_yellow div.lead_link {text-align:right; padding:10px;}
+.profitable .bg_yellow div.atn2{ font-size:; text-align:center; background-color:#ffff00; padding: 10px; }
+
+/*じぶん銀行詳細ページその２*/
+
+.campaign-title{ background-color:#f56119; color:#FFFFFF; text-align:center; pading:5px 0px;}
+.orange_line {background-color:#f08200; height:2px;}
+.bg_jibun_main{ height:4px; background: url(../img/jibun_main_bg.png);}
+.txt3 {padding:5px; font-size:16px;}
+
+.countdown {
+background:#000;
+color:#FC0;
+padding:5px;
+margin:auto;
+text-align:center;
+width:300px;
+font-size:14px;
+}
+
+.countdown span {
+font-size:28px;
+font-weight:bold;
+
+}

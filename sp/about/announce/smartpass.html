@@ -1,0 +1,70 @@
+<ul id="home_head" class="clearfix">
+<li class="logo"><img src="img/home_logo.png" alt="au PAY toto" copyright="yes"></li>
+    <li>
+<a href="login/auth"><img src="img/home_btn_login.png" alt="ログイン" copyright="yes"></a>
+</li>
+</ul>
+<div class="center mb5">
+<img src="img/gold_ribbon.png" alt="" copyright="yes"></div>
+<!-- <div class="center mb5">auスマートパス会員様特典ありの<br>
+キャンペーン実施中♪</div> -->
+<!-- <h2 class="center">▼スマパス会員限定キャンペーン▼</h2> -->
+<br>
+<div class="center mb10">
+<p class="mb20">現在応募できるキャンペーンはございません。</p>
+<!-- <p><a href="lp/campaign14052801.html">▼スマパス会員限定キャンペーン▼</a></p>
+<a href="lp/campaign14052801.html">
+<img src="img/campaign_14052803.png" copyright="yes" alt="">
+</a>
+</div>  -->
+<div style="margin-bottom:20px; text-align:center; font-size:10px;">登録して最高6億円のチャンスをつかもう!<br>
+<a href="entry/auth"><img src="img/1402_btn_01.png"></a></div>
+<p class="center">※au PAY toto会員の方は<a href="login/auth">コチラ</a></p>
+<br>
+<h2 class="center">▼au オススメサービス▼</h2>
+<div class="center mb5">
+<a href="http://www.bookpass.auone.jp/info/cp_2014-06/brazil2014/index.html?aid=lbs_A
+W0_kddirenkei41">
+<img src="img/sp_tsubasa_320-51_140609.jpg" alt="" copyright="yes"></a>
+</div>
+<div class="center mb5">
+<a href="http://www.bookpass.auone.jp/info/cp_2014-06/brazil2014/index2.html?aid=lbs_
+AW0_kddirenkei41">
+<img src="img/sp_digest_320-51_140609.jpg" alt="" copyright="yes"></a>
+</div>
+</div>
+<?php
+if (!function_exists('stream_resolve_include_path')) {
+  function stream_resolve_include_path($filename) {
+    $paths = PATH_SEPARATOR == ':' ? preg_split('#(?<!phar):#', get_include_path()) : explode(PATH_SEPARATOR, get_include_path());
+    foreach ($paths as $prefix) {
+      $ds = substr($prefix, -1) == DIRECTORY_SEPARATOR ? '' : DIRECTORY_SEPARATOR;
+      $file = $prefix . $ds . $filename;
+      if (file_exists($file)) {
+        return $file;
+      }
+    }
+    return false;
+  }
+}
+?>
+<?php
+  define('PATH_LIB', '/home/www/toto/sitelib');
+  set_include_path(PATH_LIB . PATH_SEPARATOR . get_include_path());
+  echo '<!-- [';
+  // var_dump(stream_resolve_include_path('util.php'));
+  if ( false !== $path = stream_resolve_include_path('util.php') ) {
+    echo 'UTIL';
+    require_once('util.php');
+    setCookieLeadCode();
+  }
+  echo '] -->';
+?>
+<!-- [ck_af:] -->
+<html>
+<body>
+  <div id="main" class="lp">
+  </div>
+</body>
+</html>
+<!--| NOT SET_MODULE |-->

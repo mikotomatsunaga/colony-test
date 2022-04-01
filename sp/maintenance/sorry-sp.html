@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <base href="https://stg.toto.auone.jp/sp/">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta http-equiv="content-style-type" content="text/css" />
+  <meta http-equiv="cache-control" content="no-cache" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <title>メンテナンス中 | au PAY toto | モバイルでBIG/toto</title>
+  <link rel="stylesheet" href="https://stg.toto.auone.jp/sp/css/common.css?v=20180421" type="text/css" />
+  <link rel="stylesheet" href="https://stg.toto.auone.jp/sp/css/share.css">
+  <link rel="shortcut icon" href="images/common/favicon.png">
+  <link rel="apple-touch-icon-precomposed" href="images/common/sp_home_icon2.png">
+  <link rel="apple-touch-icon-precomposed" href="images/common/sp_home_icon.png">
+</head>
+<body>
+ 
+<header class="site-header" id="pagetop">
+   <a class="site-header__logo" href="./">
+     <img src="images/common/site-header__logo.png" width="142" height="28" alt="au PAY toto">
+   </a>
+</header>
+<!-- /.site-header -->
+<section class="margin10">
+   <div class="container--fluid info-header">
+       <p><strong>ただ今メンテナンス中です。</strong></p>
+       <p>ただ今メンテナンス中です。メンテナンス終了までしばらくお待ちください。<br>お客様にはご迷惑をおかけいたしますが、ご理解とご協力をお願いいたします。</p>
+   </div>
+   <hr class="hr01"> 
+   <p class="caution">BIGを買うならau PAY totoで。BIG 最大6億円のチャンスをau PAY totoでつかもう。</p>
+</section>
+    <footer>
+      <div class="site-footer__attn margin-30">
+        注意：19歳未満の方のBIG/totoの購入または譲り受けは<br>
+        法律で禁じられています。払戻金も受け取れません。
+      </div>
+      <!-- /.site-footer__attn" -->
+      <div class="site-footer__copy">
+        COPYRIGHT &copy; KDDI CORPORATION ALL RIGHTS RESERVED.
+      </div>
+      <!-- /.site-footer__copy" -->
+    </footer>
+    <!-- /.site-footer -->
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-25399949-5']);
+      _gaq.push(['_trackPageview']);
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+  </body>
+</html>
+<?php
+if (!function_exists('stream_resolve_include_path')) {
+  function stream_resolve_include_path($filename) {
+    $paths = PATH_SEPARATOR == ':' ? preg_split('#(?<!phar):#', get_include_path()) : explode(PATH_SEPARATOR, get_include_path());
+    foreach ($paths as $prefix) {
+      $ds = substr($prefix, -1) == DIRECTORY_SEPARATOR ? '' : DIRECTORY_SEPARATOR;
+      $file = $prefix . $ds . $filename;
+      if (file_exists($file)) {
+        return $file;
+      }
+    }
+    return false;
+  }
+}
+?>
+<!-- [ck_af:] -->
+<html>
+<body>
+  <div id="main" class="maintenance">
+  </div>
+</body>
+</html>
+<!--| NOT SET_MODULE |-->

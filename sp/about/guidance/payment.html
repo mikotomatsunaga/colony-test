@@ -1,0 +1,86 @@
+<div class="bg_header_contents">
+        <img src="img/header.png" alt="header" copyright="yes"/>
+      </div>
+      <div class="bg_body_contents">
+        <div class="bg_title_contents">
+          <img src="img/icon_290gamaguchi.png" alt="icon_290gamaguchi" copyright="yes"/>お支払い方法について
+        </div>
+        <div class="par">
+          au&nbsp;one&nbsp;totoでは、じぶん銀行決済・まとめてau支払い・auかんたん決済の3通りがご利用いただけます。
+        </div>
+        <div class="atn">
+          じぶん銀行決済
+        </div>
+        <div class="par">
+          じぶん銀行の口座から購入代金をお支払いいただけます。<br />
+          <br />
+          お客様の円普通預金口座の残高の範囲内でご利用いいただけます。<br />
+        </div>
+        <div class="atn">
+          まとめてau支払い/auかんたん決済
+        </div>
+        <div class="par">
+          au携帯電話の月々のお支払いと一緒にお支払いいただけます。<span class="txt_red">最大1万円/月(税抜)がご利用の上限となります。</span>(お客様ご自身で上限金額設定をされている場合は設定された上限金額範囲内でのご利用となります。)<br />
+          <br />
+          ※まとめてau支払い/auかんたん決済は、au携帯電話料金を口座振替でお支払いただいているお客様のみご利用いただけます。<br />
+          <br />
+          au携帯電話料金をクレジットカード、請求書等でお支払いただいていただいているお客様は、当サイトでのくじ購入にあたりじぶん銀行口座が必要です。<br />
+          <br />
+          ※決済手段に関わらず、1購入あたりの上限購入金額は5万円となります。<br />
+        </div>
+        <div class="par">
+          <div align="center" class="pdn5">
+            <span class="txt_red">▼まずは会員登録から▼</span>
+          </div>
+          <div class="ful_img">
+            <a href="entry/auth"><img src="img/btn_entry.png" alt="btn_entry" copyright="yes" /></a>
+          </div>
+        </div>
+        <div class="bg_link_back">
+          <a href="about/howto/purchase.html">購入方法へ</a>
+        </div>
+        <br />
+      </div>
+    <script type="text/javascript" src="js/gaEventTracking.js"></script>
+    <!-- Google Tag Manager -->
+    <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-KDSW7F"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-KDSW7F');</script>
+    <!-- End Google Tag Manager -->
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-25399949-5']);
+      _gaq.push(['_trackPageview']);
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+<?php
+if (!function_exists('stream_resolve_include_path')) {
+  function stream_resolve_include_path($filename) {
+    $paths = PATH_SEPARATOR == ':' ? preg_split('#(?<!phar):#', get_include_path()) : explode(PATH_SEPARATOR, get_include_path());
+    foreach ($paths as $prefix) {
+      $ds = substr($prefix, -1) == DIRECTORY_SEPARATOR ? '' : DIRECTORY_SEPARATOR;
+      $file = $prefix . $ds . $filename;
+      if (file_exists($file)) {
+        return $file;
+      }
+    }
+    return false;
+  }
+}
+?>
+<!-- [ck_af:] -->
+<html>
+<body>
+  <div id="main" class="guidance">
+  </div>
+</body>
+</html>
+<!--| NOT SET_MODULE |-->

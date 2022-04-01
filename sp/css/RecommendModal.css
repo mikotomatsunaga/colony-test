@@ -1,0 +1,61 @@
+.dialog .recommend {
+    text-align: center;
+}
+.dialog nav {
+    margin-top: -35px;
+    width: 100%;
+    height: 20px;
+    text-align: left;
+}
+.dialog .recommendModalCloseBtn,
+.dialog .recommendModalCloseBtn a {
+    display: block;
+    margin-left: auto;
+    margin-right: 14px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    border: 1px solid #fff;
+}
+.dialog .recommendModalCloseBtn .cross {
+    margin-top: -15px;
+    width: 20px;
+    height: 20px;
+    font-size: 35px;
+    color: #ff742e;
+}
+
+.dialog section {
+    margin: 15px auto;
+    width: 270px;
+    background-color:#ffffff;
+}
+.dialog .btn35 {
+    padding: 10px;
+    float: left;
+}
+.dialog .btn35 a.btn-default {
+    width: 208px;
+}
+
+.modal-contents{
+    overflow-y: auto;
+    max-height: 90%;
+    margin:0;
+    padding:10px 20px;
+    position:fixed;
+    display:none;
+    z-index:2;
+}
+
+#modal-overlay{
+    z-index:1;
+    display:none;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:120%;
+    background-color:rgba(0,0,0,0.75);
+
+}

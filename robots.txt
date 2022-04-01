@@ -1,0 +1,21 @@
+User-agent: Googlebot-Mobile
+Disallow: /sp/
+
+User-agent: Y!J-SRD/1.0
+Disallow: /sp/
+
+User-agent: Y!J-MBS/1.0
+Disallow: /sp/
+
+User-agent: ichiro/mobile goo
+Disallow: /sp/
+
+User-agent: Googlebot
+Disallow: /mb/
+
+User-agent: bingbot
+Disallow: /mb/
+
+User-agent: *
+Disallow: /sp/Error/
+Disallow: /mb/Error/

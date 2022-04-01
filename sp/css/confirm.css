@@ -1,0 +1,134 @@
+@charset "UTF-8";
+
+/* ------------------------------------------------------------------------------------------------------- */
+/* table-confirm,  table-confirm-goal3*/
+/* ------------------------------------------------------------------------------------------------------- */
+.table-confirm,
+.table-confirm-goal3 {
+   margin-left: 16px;
+   margin-right: 16px;
+}
+.table-confirm table td,
+.table-confirm table th {
+   width: 33%;
+   font-size: 12px;
+   text-align: center;
+   border: 1px solid #d6d6d6;
+}
+.table-confirm-goal3 table td,
+.table-confirm-goal3 table th {
+   width: 25%;
+   font-size: 12px;
+   text-align: center;
+   border: 1px solid #d6d6d6;
+}
+.table-confirm table th,
+.table-confirm-goal3 table th {
+   padding: 5px;
+   font-weight: bold;
+   color: #fff;
+   background: #999999;
+}
+.table-confirm-goal3 table th.team,
+.table-confirm-goal3 table td.team {
+   font-weight: normal;
+   background: #bbbbbb;
+}
+.table-confirm table td,
+.table-confirm-goal3 table td {
+   text-align: center;
+   color: #aaaaaa;
+   background: #f6f6f6;
+}
+.table-confirm-goal3 table td {
+padding: 8px;
+}
+.table-confirm table td.on,
+.table-confirm-goal3 table td.on {
+   font-weight: bold;
+   color: #fff;
+   background: #ff9526;
+}
+
+/* ------------------------------------------------------------------------------------------------------- */
+/* caution _offon*/
+/* ------------------------------------------------------------------------------------------------------- */
+#caution_offon {
+   margin-top: 0;
+   margin-left: 16px;
+   margin-right: 16px;
+   font-size: 10px;
+   padding-bottom: 20px;
+}
+#caution_offon  p.notes  {
+   padding-left: 9px;
+   padding-bottom: 7px;
+   text-indent: -9px;
+}
+#caution_offon {
+display: none;
+}
+.plus_minus {
+   display: block;
+   position: relative;
+   top: -32px;
+   margin-left: auto;
+   margin-right: 16px;
+   width: 23px;
+   height: 23px;
+   background: url(../images/common/btn_plusminus.png) 0 0 no-repeat;
+   background-size: 23px 46px;
+   -webkit-background-size: 23px 46px;
+   -moz-background-size: 23px 46px;
+   -o-background-size: 23px 46px;
+   -ms-background-size: 23px 46px;
+   padding: -20px;
+}
+
+/* ------------------------------------------------------------------------------------------------------- */
+/* confirmHold_offon*/
+/* ------------------------------------------------------------------------------------------------------- */
+#confirmHold_offon {
+   margin-top: 0;
+   margin-left: 16px;
+   margin-right: 16px;
+   font-size: 10px;
+   padding-bottom: 20px;
+}
+#confirmHold_offon  p.notes  {
+   padding-left: 9px;
+   padding-bottom: 7px;
+   text-indent: -9px;
+}
+#confirmHold_offon {
+   display: none;
+}
+.confirm_plus_minus {
+   display: block;
+   position: relative;
+   top: -32px;
+   margin-left: auto;
+   margin-right: 16px;
+   width: 23px;
+   height: 23px;
+   background: url(../images/common/btn_plusminus.png) 0 0 no-repeat;
+   background-size: 23px 46px;
+   -webkit-background-size: 23px 46px;
+   -moz-background-size: 23px 46px;
+   -o-background-size: 23px 46px;
+   -ms-background-size: 23px 46px;
+   padding: -20px;
+}
+
+/* ------------------------------------------------------------------------------------------------------- */
+/* hd03_gray */
+/* ------------------------------------------------------------------------------------------------------- */
+.hd03_gray .box {
+   margin-top: 10px;
+   margin-left: 16px;
+   margin-right: 16px;
+}
+
+#pagetop .read {
+margin-top: -15px;
+}

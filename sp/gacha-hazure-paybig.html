@@ -1,0 +1,23 @@
+<?php
+if (!function_exists('stream_resolve_include_path')) {
+  function stream_resolve_include_path($filename) {
+    $paths = PATH_SEPARATOR == ':' ? preg_split('#(?<!phar):#', get_include_path()) : explode(PATH_SEPARATOR, get_include_path());
+    foreach ($paths as $prefix) {
+      $ds = substr($prefix, -1) == DIRECTORY_SEPARATOR ? '' : DIRECTORY_SEPARATOR;
+      $file = $prefix . $ds . $filename;
+      if (file_exists($file)) {
+        return $file;
+      }
+    }
+    return false;
+  }
+}
+?>
+<!-- [ck_af:] -->
+<html>
+<body>
+  <div id="main" class="">
+  </div>
+</body>
+</html>
+<!--| NOT SET_MODULE |-->

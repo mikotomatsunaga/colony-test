@@ -1,0 +1,162 @@
+@charset "UTF-8";
+
+/* ------------------------------------------------------------------------------------------------------- */
+/* hd02 */
+/* ------------------------------------------------------------------------------------------------------- */
+.hd02 {
+   border: 0;
+   background-color: #fff;
+   margin-top: 0;
+   padding-top: 0;
+}
+.hd02 .box h2 {
+   margin-top: 0;
+   border-left: 6px solid #666666;
+   padding: 5px 0 5px 10px;
+   color: #666666;
+   font-size: 20px;
+   font-weight: bold;
+}
+
+/* ------------------------------------------------------------------------------------------------------- */
+/* question */
+/* ------------------------------------------------------------------------------------------------------- */
+.question {
+   display: inline-block;
+   width: 100%;
+   min-height: 45px;
+   border-top: solid 1px #ededed;
+   border-bottom: solid 1px #ededed;
+   background-color: #fff;
+   cursor: pointer;
+}
+.question .box {
+   margin-top: 15px;
+   margin-left: 15px;
+   margin-right: 50px;
+   padding-left: 30px;
+   padding-bottom: 10px;
+   color: #444444;
+   font-size: 12px;
+   font-weight: bold;
+   background: url(../images/faq/q.png) 0 0 no-repeat;
+   background-size: 18px 16px;
+}
+
+/* ------------------------------------------------------------------------------------------------------- */
+/* faq _offon*/
+/* ------------------------------------------------------------------------------------------------------- */
+#faq_offon1,
+#faq_offon2,
+#faq_offon3,
+#faq_offon4,
+#faq_offon5,
+#faq_offon6,
+#faq_offon7,
+#faq_offon8,
+#faq_offon9,
+#faq_offon10,
+#faq_offon11,
+#faq_offon12,
+#faq_offon13,
+#faq_offon14,
+#faq_offon15,
+#faq_offon16,
+#faq_offon17,
+#faq_offon18,
+#faq_offon19,
+#faq_offon20 {
+   display: none;
+   margin-top: 0;
+   background: #f6f6f6;
+}
+
+#faq_offon1 .box,
+#faq_offon2 .box,
+#faq_offon3 .box,
+#faq_offon4 .box,
+#faq_offon5 .box,
+#faq_offon6 .box,
+#faq_offon7 .box,
+#faq_offon8 .box,
+#faq_offon9 .box,
+#faq_offon10 .box,
+#faq_offon11 .box,
+#faq_offon12 .box,
+#faq_offon13 .box,
+#faq_offon14 .box,
+#faq_offon15 .box,
+#faq_offon16 .box,
+#faq_offon17 .box,
+#faq_offon18 .box,
+#faq_offon19 .box,
+#faq_offon20 .box {
+   font-size: 12px;
+   line-height: 1.5;
+   margin-left: 15px;
+   padding: 15px 30px 15px 30px;
+   background: url(../images/faq/a.png) 0 15px no-repeat;
+   background-size: 18px 16px;
+}
+#faq_offon1 .box ul,
+#faq_offon2 .box ul,
+#faq_offon3 .box ul,
+#faq_offon4 .box ul,
+#faq_offon5 .box ul,
+#faq_offon6 .box ul,
+#faq_offon7 .box ul,
+#faq_offon8 .box ul,
+#faq_offon9 .box ul,
+#faq_offon10 .box ul,
+#faq_offon11 .box ul,
+#faq_offon12 .box ul,
+#faq_offon13 .box ul,
+#faq_offon14 .box ul,
+#faq_offon15 .box ul,
+#faq_offon16 .box ul,
+#faq_offon17 .box ul,
+#faq_offon18 .box ul,
+#faq_offon19 .box ul,
+#faq_offon20 .box ul {
+   padding: 5px 0 5px 20px;
+}
+
+.plus_minus {
+   display: block;
+   position: relative;
+   top: 35px;
+   margin-left: auto;
+   margin-right: 16px;
+   width: 23px;
+   height: 23px;
+   background: url(../images/common/btn_plusminus.png) 0 0 no-repeat;
+   background-size: 23px 46px;
+   -webkit-background-size: 23px 46px;
+   -moz-background-size: 23px 46px;
+   -o-background-size: 23px 46px;
+   -ms-background-size: 23px 46px;
+   padding: -20px;
+   cursor: pointer;
+}
+
+section dl {
+   padding: 0 0 30px 0;
+   font-size: 11px;
+}
+section dl dt {
+   margin: 0;
+   padding: 0;
+   float:left; 
+   clear:left; 
+}
+
+section dl dd {
+   margin: 0;
+   padding: 0;
+   float:left;
+}
+
+p.notes {
+padding: 14px;
+text-indent: -14px;
+}

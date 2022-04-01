@@ -1,0 +1,236 @@
+<html>
+    <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="content-style-type" content="text/css" />
+    <meta http-equiv="cache-control" content="no-cache" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="keywords" content="au PAY toto,BIG,toto,au,au PAY toto,au BIG,ﾄﾄ,ﾓﾊﾞｲﾙ,携帯" />
+    <meta name="description" content="au PAY totoならﾓﾊﾞｲﾙからBIG/totoを楽しめます!" />
+    <meta name="robots" content="index,follow,noarchive" />
+    <meta name="robots" content="noydir" />
+    <meta name="robots" content="noodp" />
+    <base href="https://stg.toto.auone.jp/sp/">
+    <link rel="stylesheet" href="https://stg.toto.auone.jp/sp/css/style.css" type="text/css" />
+    <link rel="stylesheet" href="https://stg.toto.auone.jp/sp/css/common.css?v=20180421" type="text/css" />
+    <link rel="shortcut icon" href="img/favicon.png">
+    <link rel="apple-touch-icon-precomposed" href="https://stg.toto.auone.jp/sp/img/sp_home_icon.png">
+    <link rel="apple-touch-icon-precomposed" href="https://stg.toto.auone.jp/sp/img/sp_home_icon.png">
+    <script type="text/javascript" src="https://stg.toto.auone.jp/sp/js/jquery-1.6.3.min.js"></script>
+<script type="text/javascript" src="https://stg.toto.auone.jp/sp/js/jquery-1.js"></script>
+<script type="text/javascript" src="https://stg.toto.auone.jp/sp/js/autotofront.js?v=20180421"></script>
+    <script type="text/javascript" src="https://stg.toto.auone.jp/sp/js/toggle.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>au PAY toto　抽選でBIG1口をプレゼント！</title>
+<link rel="stylesheet" href="https://stg.toto.auone.jp/sp/css/style_gacha_top.css" type="text/css">
+</head>
+  <body>
+    <a name="top" id="top"></a>
+<!-- キャンペーン -->
+<div class="tc">
+<div class="scratch_error">
+  <img src="img/sc-base_nm_03.png" alt="" width="100%">
+  <div class="txt"><p id="message"></p></div>
+  <div class="chance">
+    <dl>
+      <dt><img src="img/w-chance.png" alt="今なら会員登録でダブルチャンス!" width="100%"></dt>
+      <dd>
+        <a href="https://enjoy.point.auone.jp/shop/detail?shopId=99" title="">
+          <img class="fluid fluid--special" src="img/gacha_bnr_200pt.jpg" alt="最大200ポイント獲得">
+        </a>
+        <br>
+        <div class="tp5">
+        <a href="lp/campaign19020101.html?ENTRY_CAMPAIGN_ID=69" title="">
+          <img class="fluid fluid--special" src="img/gacha_1902.png" alt="毎週抽選！5,000WALLETポイントが当たるチャンス！">
+        </a>
+        </div>
+      </dd>
+    </dl>
+  </div>
+</div>
+</div>
+<dl class="aboutau">
+<dd class="gotoau" style="text-align:center;">
+<div class="pre_pass_2 white "style="margin:10px 0"><p><a href="../"><img src="img/txt_03.png" width="200" height="38" alt="au PAY totoへ"></a></p>
+</div>
+</dd>
+</dd>
+</dl>
+<div style="margin:10px; text-align:left; font-size:10px;">
+KDDI株式会社は、株式会社じぶん銀行を所属銀行とする銀行代理業者として、「円預金、外貨預金の受入れ」ならびに「資金の貸付」を内容とする契約締結の媒介を行います。<br>
+所属銀行であるじぶん銀行が契約している指定紛争解決期間は<a href="http://www.jibunbank.co.jp/sp/customer_support/inquiry/?code=KD4CMT131002">こちら</a></div>
+<div style="text-align:right; font-size:xx-small; margin-right:10px;">2015年11月現在</div>
+</div>
+<script type="text/javascript">
+  var messages = {
+    1:'本日は抽選済みです。',
+    2:'',
+    3:'システムエラーが発生しました。お手数ですが時間をおいて再度お試し下さい。',
+    4:'お客様はスマートパス会員でないため、抽選いただけません。',
+    5:'システムエラーが発生しました。お手数ですが時間をおいて再度お試し下さい。',
+    6:'お客様はau WALLETカードをお持ちでないため、抽選いただけません。',
+    7:'お客様はau WALLETクレジットカードをお持ちでないため、抽選いただけません。',
+    8:'お客様はau PAY totoメールマガジンを受信していないため、抽選いただけません。',
+    9:'お客様はくじご購入金額が抽選条件に達していないため、抽選いただけません。',
+    10:'お客様は他のキャンペーンへお申し込み済みのため、抽選対象外です。',
+    11:'お客様は既に本キャンペーンに当選済みのため、抽選対象外です。',
+    12:'本キャンペーンは開始前または終了しているため、抽選いただけません。',
+    99:'システムエラーが発生しました。お手数ですが時間をおいて再度お試し下さい。'
+  };
+  function getRequest() {
+    if(location.search.length > 1) {
+      var get = new Object();
+      var ret = location.search.substr(1).split('&');
+      for(var i = 0; i < ret.length; i++) {
+      var r = ret[i].split('=');
+      get[r[0]] = r[1];
+      }
+      return get;
+    } else {
+      return false;
+    }
+  }
+  function getMessage(code) {
+  var message = '';
+  if(0 < code && code <13) {
+    message = messages[code];
+  } else {
+    message = messages[99];
+  }
+    return message;
+  }
+  $(function() {
+    var get = getRequest();
+    var code = get['RESPONSE_CODE'];
+  var message = getMessage(code);
+  $('#message').append(message);
+  });
+</script>
+<div class="block-link anchor-top margin20">
+      <a class="btn" href="#top" onclick="window.scrollTo(0, 0); return false;">
+        <img src="images/common/page-top.png" width="46" height="24" alt="ページTOPへ">
+      </a>
+    </div>
+    <!-- /.page-top -->
+<footer class="site-footer">
+      <nav class="nav site-footer__nav">
+        <ul class="nav__list">
+          <li class="nav__item nav__item--horizontal">
+            <a class="nav__btn nav__btn--default" href="https://stg.toto.auone.jp/" title="ホーム">
+              <span class="nav__txt nav__txt--large">ホーム</span>
+            </a>
+          </li>
+          <li class="nav__item nav__item--horizontal">
+            <a class="nav__btn nav__btn--default" href="https://stg.toto.auone.jp/sp/mypage.html" title="マイページ">
+              <span class="nav__txt nav__txt--large">マイページ</span>
+            </a>
+          </li>
+        </ul>
+        <ul class="nav__list">
+          <li class="nav__item nav__item--horizontal">
+            <a class="nav__btn nav__btn--default" href="https://www.kddi.com/app-policy/android/app-policy-autoto-1.1.html" title="プライバシーポリシー">
+              <span class="nav__txt">プライバシーポリシー</span>
+            </a>
+          </li>
+          <li class="nav__item nav__item--horizontal">
+            <a class="nav__btn nav__btn--default" href="about/sct.html" title="特定商取引法に基づく表示">
+              <span class="nav__txt">特定商取引法に基づく表示</span>
+            </a>
+          </li>
+        </ul>
+        <ul class="nav__list">
+          <li class="nav__item nav__item--horizontal">
+            <a class="nav__btn nav__btn--default" href="about/allowmodel.html" title="対応機種">
+              <span class="nav__txt">対応機種</span>
+            </a>
+          </li>
+          <li class="nav__item nav__item--horizontal">
+            <a class="nav__btn nav__btn--default" href="about/terms.html" title="利用規約">
+              <span class="nav__txt">利用規約</span>
+            </a>
+          </li>
+        </ul>
+        <ul class="nav__list">
+          <li class="nav__item nav__item--horizontal">
+            <a class="nav__btn nav__btn--default" href="about/resign.html" title="解約について">
+              <span class="nav__txt">解約について</span>
+            </a>
+          </li>
+          <li class="nav__item nav__item--horizontal">
+            <a class="nav__btn nav__btn--default" href="about/faq/summary.html" title="よくある質問">
+              <span class="nav__txt">よくある質問</span>
+            </a>
+          </li>
+        </ul>
+        <ul class="nav__list">
+          <li class="nav__item nav__item--horizontal">
+            <a class="nav__btn nav__btn--default" href="about/inquiry.html" title="お問い合わせ">
+              <span class="nav__txt">お問い合わせ</span>
+            </a>
+          </li>
+          <li class="nav__item nav__item--horizontal"></li>
+        </ul>
+      </nav>
+      <!-- /.site-footer__nav -->
+      <div class="site-footer__attn">
+        注意：19歳未満の方のスポーツくじの購入または譲り受けは<br>
+        法律で禁じられています。払戻金も受け取れません。
+      </div>
+      <!-- /.site-footer__attn -->
+      <div class="site-footer__copy">
+        COPYRIGHT &copy; KDDI CORPORATION ALL RIGHTS RESERVED.
+      </div>
+      <!-- /.site-footer__copy -->
+    </footer>
+    <!-- /.site-footer -->
+<?php
+if (!function_exists('stream_resolve_include_path')) {
+  function stream_resolve_include_path($filename) {
+    $paths = PATH_SEPARATOR == ':' ? preg_split('#(?<!phar):#', get_include_path()) : explode(PATH_SEPARATOR, get_include_path());
+    foreach ($paths as $prefix) {
+      $ds = substr($prefix, -1) == DIRECTORY_SEPARATOR ? '' : DIRECTORY_SEPARATOR;
+      $file = $prefix . $ds . $filename;
+      if (file_exists($file)) {
+        return $file;
+      }
+    }
+    return false;
+  }
+}
+?>
+<?php
+  define('PATH_LIB', '/home/www/toto/sitelib');
+  set_include_path(PATH_LIB . PATH_SEPARATOR . get_include_path());
+  echo '<!-- [';
+  // var_dump(stream_resolve_include_path('util.php'));
+  if ( false !== $path = stream_resolve_include_path('util.php') ) {
+    echo 'UTIL';
+    require_once('util.php');
+    setCookieLeadCode();
+  }
+  echo '] -->';
+?>
+<!-- [ck_af:] -->
+<div id="main" class="lp"></div>
+    <script type="text/javascript" src="js/gaEventTracking.js"></script>
+    <!-- Google Tag Manager -->
+    <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-KDSW7F"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-KDSW7F');</script>
+    <!-- End Google Tag Manager -->
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-25399949-5']);
+      _gaq.push(['_trackPageview']);
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+  </body>
+</html>
+<!--| SET_MODULE |-->

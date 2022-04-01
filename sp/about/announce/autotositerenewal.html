@@ -1,0 +1,74 @@
+<a name="top" id="top"></a>
+<!-- <h2>お知らせ</h2>
+<h3 class="inquiry"><span>toto最高5億円開始記念キャンペーン
+</span></h3> -->
+<ul id="home_head" class="clearfix">
+<li class="logo"><img src="img/home_logo.png" alt="au PAY toto" copyright="yes" /></li>
+    <li>
+<a href="login/auth"><img src="img/home_btn_mypage.png" alt="マイページ" copyright="yes" /></a>
+</li>
+</ul>
+<div class="center mb5">
+<img src="img/renewal_main_bnr_01.png" alt="リニューアルバナー" copyright="yes" />
+</div>
+<h2>トップページが変わりました</h2>
+<br />
+<h3 class="inquiry"><span>ナビゲーションバーを新たに用意！</span></h3>
+<p class="mb20">マイページへのログインが必要だった「当せん結果」「BIG購入」「toto購入」まですぐに遷移できるようになりました。
+<br />
+<div style="text-align:center; margin:15 auto; width:320px; overflow:hidden;"><img src="img/renewal_top_01.png" alt="サンプル画像1"></div>
+<br/>
+</p>
+<h3 class="inquiry"><span>くじ購入ページへすぐに進める！</span></h3>
+<p class="mb20">トップページから直接BIGとtotoの購入ページへ進めるようになりました。
+<br />
+<div style="text-align:center; margin:15 auto; width:320px; overflow:hidden;"><img src="img/renewal_top_02.png" alt="サンプル画像2"></div>
+<br/>
+</p>
+<h3 class="inquiry"><span>BIGのかんたん購入を用意！</span></h3>
+<p class="mb20">最高6億円（※）があたるBIGが、トップページからすぐに口数を選択できるようになりました。<br />
+「5口」「10口」「15口」から口数を選択すれば、そのままくじの購入ができます。<br />
+<div style="text-align:center; margin:15 auto; width:320px; overflow:hidden;"><img src="img/renewal_top_03.png" alt="サンプル画像3"></div>
+<p style="font-size: 80%">※キャリーオーバー発生時。通常は1等最高3億円。当せん金は、売上金額や当せん口数によって変動します。なお、特別開催回は除きます。</p>
+<br/>
+</p>
+<h2>BIGの購入ページが変わりました</h2>
+<br />
+<h3 class="inquiry"><span>買いたいくじの口数を入力するだけ！</span></h3>
+<p class="mb20">BIGのくじ3種類から、買いたいくじの口数を入力するだけでくじの購入ができるようになりました。<br />
+くじの種類を選択する必要がなくなり、すぐに購入ができます。
+<br />
+<div style="text-align:center; margin:15 auto; width:320px; overflow:hidden;"><img src="img/renewal_purchase_big_01.png" alt="サンプル画像4"></div>
+<br/>
+</p>
+<h3 class="inquiry"><span>まとめて買うときは簡単入力で口数の入力がカンタンに！</span></h3>
+<p class="mb20">右に用意された「簡単入力」のボタンを押すと、ポップアップでまとめて口数の選択が可能になりました。
+<br />
+<div style="text-align:center; margin:15 auto; width:320px; overflow:hidden;"><img src="img/renewal_purchase_big_04.png" alt="サンプル画像5"></div>
+<br/>
+</p>
+<br/>
+<div style="text-align:center; margin:15 auto; width:320px; overflow:hidden;"><a href="https://stg.toto.auone.jp/"><img src="img/renewal_top_link_01.png" alt="新しいトップページをさっそく試す"></a></div>
+<?php
+if (!function_exists('stream_resolve_include_path')) {
+  function stream_resolve_include_path($filename) {
+    $paths = PATH_SEPARATOR == ':' ? preg_split('#(?<!phar):#', get_include_path()) : explode(PATH_SEPARATOR, get_include_path());
+    foreach ($paths as $prefix) {
+      $ds = substr($prefix, -1) == DIRECTORY_SEPARATOR ? '' : DIRECTORY_SEPARATOR;
+      $file = $prefix . $ds . $filename;
+      if (file_exists($file)) {
+        return $file;
+      }
+    }
+    return false;
+  }
+}
+?>
+<!-- [ck_af:] -->
+<html>
+<body>
+  <div id="main" class="announce">
+  </div>
+</body>
+</html>
+<!--| NOT SET_MODULE |-->

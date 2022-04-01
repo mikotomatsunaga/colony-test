@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+.wallet-header__nav {
+  margin-left: auto;
+  padding-right: 10px;
+}
+
+
+/* ------------------------------------------------------------------------------------------------------- */
+/* =commons */
+/* ------------------------------------------------------------------------------------------------------- */
+.nav__item--border_none {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: -webkit-flex;
+    display: flex;
+    border-top: 1px solid #ededed;
+    border-top: none;
+}
+
+.nav__list--border_bottom {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding-left: 0;
+  list-style: none;
+  margin-bottom: 0;
+  border-bottom: 1px solid #ededed;
+}
+.nav__lead--gray {
+    color: #666666;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.nav__txt--right--gray {
+    color: #666666;
+    text-align: right;
+}
+
+.nav__lead {
+  color: #666666;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+
+/* ------------------------------------------------------------------------------------------------------- */
+/* =breadcrumb-nav add */
+/* ------------------------------------------------------------------------------------------------------- */
+
+.breadcrumb-nav {
+    padding: 12px 15px;
+}
+
+/* ------------------------------------------------------------------------------------------------------- */
+/* =buy-nav add */
+/* ------------------------------------------------------------------------------------------------------- */
+
+.breadcrumb-nav {
+    padding: 12px 15px;
+}
+
+/* ------------------------------------------------------------------------------------------------------- */
+/* =table */
+/* ------------------------------------------------------------------------------------------------------- */
+.table--buy {
+    width: 100%;
+    border: none;
+}
+.table--buy tr {
+    border-bottom: 1px solid #ededed;
+}
+.table--buy th {
+    background: none;
+    border: none;
+    font-weight: normal;
+    padding: 15px 8px 12px;
+    text-align: center;
+}
+.table--buy td {
+    border: none;
+    padding: 12px 8px 12px;
+    text-align: center;
+}
+.table--buy td a {
+    margin: 0;
+}
+th.border_right,
+td.border_right{
+    border-right: 1px solid #ededed;
+}
+
+/* ------------------------------------------------------------------------------------------------------- */
+/* =news */
+/* ------------------------------------------------------------------------------------------------------- */
+.section--news__item {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.news__list {
+    text-align: right;
+}

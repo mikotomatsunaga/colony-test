@@ -1,0 +1,189 @@
+@charset "UTF-8";
+
+.table01 table tr th {
+vertical-align: top;
+}
+
+p.notes {
+margin: 0;
+padding-left: 20px;
+text-indent: -17px;
+font-size: 10px;
+}
+
+section p.notes {
+margin: 0;
+padding-left: 20px;
+text-indent: -17px;
+font-size: 10px;
+}
+
+section ul li.disc {
+list-style-type:disc;
+}
+
+section ul.non {
+padding: 0 16px 20px 30px;
+}
+
+section ul.non li {
+font-size: 12px;
+padding-top: 10px;
+}
+
+/* ------------------------------------------------------------------------------------------------------- */
+/* anker-BIG, title-BIG, anker-toto, title-BIG */
+/* ------------`------------------------------------------------------------------------------------------- */
+.anker-BIG,
+.anker-toto,
+.title-BIG,
+.title-toto {
+   margin: 0 auto;
+   text-align: center;
+   width: 359px;
+}
+.anker-BIG img {
+   border: 0;
+   width: 66px;
+   height: 100px;
+}
+.anker-toto img {
+   border: 0;
+   width: 84px;
+   height: 95px;
+}
+.title-BIG img {
+   border: 0;
+   width: 85px;
+   height: 65px;
+}
+.title-toto img {
+   border: 0;
+   width: 84px;
+   height: 49px;
+}
+@media screen and (min-width: 0px) and (max-width: 374px) {
+.anker-BIG,
+.anker-toto,
+.title-BIG,
+.title-toto {
+   width: 293px;
+}
+.anker-BIG img {
+   border: 0;
+   width: 55px;
+   height: 85px;
+}
+.anker-toto img {
+   border: 0;
+   width: 70px;
+   height: 79px;
+}
+.title-BIG img {
+   border: 0;
+   width: 70px;
+   height: 55px;
+}
+.title-toto img {
+   border: 0;
+   width: 70px;
+   height: 41px;
+}
+}
+
+/* ------------------------------------------------------------------------------------------------------- */
+/* section */
+/* ------------`------------------------------------------------------------------------------------------- */
+section {
+   padding: 0;
+   width: 100%;
+}
+section .title {
+   padding: 0;
+   width: 100%;
+   height: 77px;
+}
+section#about-BIG .title {
+background: #e61010;
+}
+section#about-100BIG .title {
+background: #f08200;
+}
+section#about-BIG1000 .title {
+background: #eb6da5;
+}
+section#about-miniBIG .title {
+background: #aacd06;
+}
+section#about-toto .title {
+background: #fed900;
+}
+section#about-minitoto .title {
+background: #00a0e9;
+}
+section#about-totoGOAL3 .title,
+section#about-totoGOAL2 .title {
+background: #00a040;
+}
+
+section .title .about img {
+   display: block;
+   width: 125px;
+   height: 77px;
+}
+section .title .price img {
+   display: block;
+   margin-top: -77px;
+   margin-left: auto;
+   width: 250px;
+   height: 77px;
+}
+@media screen and (min-width: 0px) and (max-width: 374px) {
+section .title {
+   height: 66px;
+}
+section .title .about img {
+   width: 107px;
+   height: 66px;
+}
+section .title .price img {
+   margin-top: -66px;
+   width: 213px;
+   height: 66px;
+}
+}
+
+/* ------------------------------------------------------------------------------------------------------- */
+/* hd02_non */
+/* ------------------------------------------------------------------------------------------------------- */
+.hd02_non {
+   border: 0;
+   background-color: #fff;
+   margin-top: 0;
+   padding-top: 0;
+}
+.hd02_non .box {
+  background-color: #fff;
+  margin-top: 10px;
+  padding-top: 10px;
+}
+.hd02_non .box h2 {
+   margin-top: 0;
+   border-left: 6px solid #666666;
+   padding: 5px 0 5px 10px;
+   color: #666666;
+   font-size: 20px;
+   font-weight: bold;
+}
+
+/* ------------------------------------------------------------------------------------------------------- */
+/* hd03_center */
+/* ------------------------------------------------------------------------------------------------------- */
+.hd03_center {
+  padding:10px 16px 10px 16px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  background-color: #ff8200; 
+}

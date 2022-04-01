@@ -1,0 +1,538 @@
+<?php
+define('PATH_LIB', '../../../sitelib');
+set_include_path(PATH_LIB . PATH_SEPARATOR . get_include_path());
+require_once('util.php');
+//端末判定
+$device = checkDevice();
+if (PC_DEVICE == $device) {
+    redirectPC();
+    exit;
+} else if (SMART_PHONE !== $device) {
+    redirectOutofservice();
+    exit;
+}
+?>
+<html>
+    <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="content-style-type" content="text/css" />
+    <meta http-equiv="cache-control" content="no-cache" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="keywords" content="au PAY toto,BIG,toto,au,au PAY toto,au BIG,ﾄﾄ,ﾓﾊﾞｲﾙ,携帯" />
+    <meta name="description" content="au PAY totoならﾓﾊﾞｲﾙからBIG/totoを楽しめます!" />
+    <meta name="robots" content="index,follow,noarchive" />
+    <meta name="robots" content="noydir" />
+    <meta name="robots" content="noodp" />
+    <base href="https://stg.toto.auone.jp/sp/">
+    <link rel="stylesheet" href="https://stg.toto.auone.jp/sp/css/style.css" type="text/css" />
+    <link rel="stylesheet" href="https://stg.toto.auone.jp/sp/css/common.css?v=20180421" type="text/css" />
+    <link rel="shortcut icon" href="img/favicon.png">
+    <link rel="apple-touch-icon-precomposed" href="https://stg.toto.auone.jp/sp/img/sp_home_icon.png">
+    <link rel="apple-touch-icon-precomposed" href="https://stg.toto.auone.jp/sp/img/sp_home_icon.png">
+    <script type="text/javascript" src="https://stg.toto.auone.jp/sp/js/jquery-1.6.3.min.js"></script>
+    <script type="text/javascript" src="https://stg.toto.auone.jp/sp/js/jquery-1.js"></script>
+    <script type="text/javascript" src="https://stg.toto.auone.jp/sp/js/autotofront.js?v=20180421"></script>
+    <script type="text/javascript" src="https://stg.toto.auone.jp/sp/js/toggle.js"></script>
+    <meta name="viewport"content="minimum-scale=1,maximum-scale=1,initial-scale=1,user-scalable=yes">
+    <title>秋祭り！今ならMEGA BIG100口当たるキャンペーン</title>
+<style type="text/css">
+<!--
+body {
+  min-width: 320px ;
+  max-width: 640px ;
+  margin: 0 auto ;
+}
+.pre_pass{
+  height: 39px;
+  display:block;
+  border-radius: 4px;
+  box-shadow: 0 1px 1px rgba(255, 255, 255, 0.3) inset, 0 0 0 rgba(0, 0, 0, 0.1), 0 1px 1px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  text-align:center;  
+}
+.pre_pass a{
+  display: block;
+}
+.pre_pass p{
+  background: url(../img/arrow_01.png) left center no-repeat;
+  background-size: 28px 14px;
+  -webkit-background-size: 28px 14px;
+}
+.pre_pass.white p{
+  background-image: url(../img/arrow_02.png);
+}
+.pre_pass.white{
+  border: 1px solid #b9b9b9;
+  background: #eee;
+  background: linear-gradient(#fff 0%,#eee 100%);
+  background: -webkit-linear-gradient(#fff 0%,#eee 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#eee));  
+}
+.pre_pass.black{
+  border: 1px solid #3a3a3a;  
+  background: #3a3a3a;
+  background: linear-gradient(#454545 0%,#3a3a3a 100%);
+  background: -webkit-linear-gradient(#454545 0%,#3a3a3a 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#454545), to(#3a3a3a));
+}
+.pre_pass.orange{
+  border: 1px solid #dc5209;
+  background: #dc5209;
+  background: linear-gradient(#f46a21 0%,#dc5209 100%);
+  background: -webkit-linear-gradient(#f46a21 0%,#dc5209 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#f46a21), to(#dc5209));
+}
+.campaign {
+  background: #fff ;
+  margin: 0 0 10px 0 ;
+  padding: 0 ;
+  text-align: center ;
+}
+.campaign.txt {
+  padding: 10px 10px 1px 10px ;
+}
+.campaign dt {
+  background: #e7e7e7 ;
+  padding: 7px 10px 6px 10px ;
+  color: #3f3f3f ;
+  font-size: 16px ;
+  font-weight:  ;
+  line-height: 1.1 ;
+  text-align: center ;
+}
+.campaign dd {
+  background: #ffffff ;
+  margin: 0 0 10px 0 ;
+  padding: 9px 10px 8px 10px ;
+  font-size: 12px ;
+  line-height: 1.6 ;
+  text-align: left ;
+  border: 1px solid #e7e7e7;
+}
+.campaign2 {
+  margin: 0 0 0 0 ;
+  padding: 0 ;
+  text-align: center ;
+}
+.campaign2 .txt {
+  padding: 10px 10px 1px 10px ;
+}
+.campaign2 dt {
+  padding: 7px 0 0 0 ;
+  color: #ffffff ;
+  font-size: 16px ;
+  font-weight: bold ;
+  line-height: 1.1 ;
+  text-align: left ;
+}
+.campaign2 dd {
+  background: #ffffff ;
+  margin: 0 0 10px 0 ;
+  padding: 0 0 8px 0;
+  font-size: 12px ;
+  line-height: 1.6 ;
+  text-align: left ;
+}
+.entrycaution {
+  margin-top: 4px ;
+  padding: 0 10px ;
+  font-size: 12px ;
+  text-align: center ;
+}
+.entryend{
+  margin-top: 10px ;
+  padding: 0 10px ;
+  font-size: 12px ;
+  color: #ff0000 ;
+  text-align: center ;
+}
+.balloon {
+  margin-top: 4px ;
+  padding: 0 10px ;
+  font-size: 18px ;
+  font-weight: bold ;
+  text-align: center ;
+}
+.balloon2 {
+  margin-top: 4px ;
+  padding: 0 10px ;
+  font-size: 14px ;
+  text-align: center ;
+}
+.red {
+  color: #ff0000 ;
+}
+.blue {
+  color: #196ee5 ;
+}
+.caution {
+  margin: 0 0 20px 0 ;
+  padding: 0 10px ;
+  font-size: 12px ;
+}
+.btnbox {
+  position: relative ;
+  width: 100% ;
+}
+.btnbox img {
+  position: relative ;
+  z-index: 1 ;
+}
+.btnbox div {
+  position: absolute ;
+  width: 100% ;
+  left: 0px ;
+  bottom: 0px ;
+  z-index: 10 ;
+}
+.tp5 {
+  margin-top: 5px ;
+}
+.tp10 {
+  margin-top: 10px ;
+}
+.tp20 {
+  margin-top: 20px ;
+}
+.tp30 {
+  margin-top: 30px ;
+}
+.tp50 {
+  margin-top: 50px ;
+}
+.bp5 {
+  margin-bottom: 5px ;
+}
+.bp10 {
+  margin-bottom: 10px ;
+}
+.bp20 {
+  margin-bottom: 20px ;
+}
+.bp30 { 
+  margin-bottom: 30px ;
+}
+.bp50 { 
+  margin-bottom: 50px ;
+}
+.bigtxt {
+  font-weight: bold ;
+}
+.tc {
+  text-align: center ;
+}
+.tr {
+  text-align: right ;
+}
+.countdown {
+  background-color: #d8be66;
+    font-weight: bold;
+    padding: 10px 5px 5px 5px;
+}
+#TimeArea {
+  font-size:17px;
+  color:#e61612;
+  font-weight:bold;
+  margin:0;
+}
+#TimeLeft1,#TimeLeft2,#TimeLeft3,#TimeLeft4{
+  font-size:30px;
+}
+.entry img{
+  width:90% !important;
+        height: auto;
+}
+.hr {
+    border-top: 1px solid #bbbbbb;
+  padding-bottom:12px;
+    background-color: #dedede;
+    margin: 30px 0 30px;
+}
+.anchor-top {
+    background-color: #fcfcfc;
+    border-top: 1px solid #ededed;
+    text-align: center;
+}
+.block-link a {
+  display: block;
+}
+-->
+</style>
+<script type="text/javascript">
+  $(function() {
+    countDown();
+  });
+  function countDown() {
+    //終了時刻を設定する。※月は英語で指定。
+    var endDateTime = new Date("November 19,2015 13:20:00");
+    var startDateTime = new Date();
+    var lastDateTime = endDateTime-startDateTime;
+    if (lastDateTime > 0) {
+      var d = Math.floor((lastDateTime)/(24*60*60*1000))
+      var h = Math.floor(((lastDateTime)%(24*60*60*1000))/(60*60*1000))
+      var m = Math.floor(((lastDateTime)%(24*60*60*1000))/(60*1000))%60
+      var s = Math.floor(((lastDateTime)%(24*60*60*1000))/1000)%60%60
+      $("#TimeLeft1").text(d);
+      $("#TimeLeft2").text(h);
+      $("#TimeLeft3").text(m);
+      $("#TimeLeft4").text(s);
+      setTimeout('countDown()', 1000);
+    } else {
+      $("#TimeArea").text('販売を締め切りました。');
+    }
+  }
+  $(function(){
+   $('a[href^=#]').click(function() {
+      var speed = 400;
+      var href= $(this).attr("href");
+      var target = $(href == "#" || href == "" ? 'html' : href);
+      var position = target.offset().top;
+      $('body,html').animate({scrollTop:position}, speed, 'swing');
+      return false;
+   });
+});
+</script>
+</head>
+  <body>
+    <a name="top" id="top"></a>
+    <header class="site-header">
+      <a class="site-header__logo" href="/">
+        <img src="images/common/site-header__logo.png" width="142" height="28" alt="au PAY toto トップへ">
+      </a>
+      <nav class="site-header__nav">
+        <ul class="site-header__list">
+            <li class="site-header__item">
+              <a href="about/howto/guide.html" title="">
+                <img src="images/common/site-header__item--01.png" width="58" height="40" alt="スタートガイド">
+              </a>
+            </li>
+            <li class="site-header__item">
+              <a href="login/auth" title="">
+                <img src="images/common/site-header__item--02.png" width="42" height="41" alt="マイページ"></a>
+            </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- /.site-header -->
+<!-- メインー -->
+<div class="tc">
+<div class="tc tp5 bp30">
+<img src="img/sp-normal_main_2011.jpg" alt="秋祭り！今ならMEGA BIG100口当たるキャンペーン" width="100%">
+</div>
+<p class="entryend">本キャンペーンは新規エントリーを締め切りました。</p>
+</div>
+<!-- 当選確率 -->
+<div class="tc tp20 bp20">
+<p class="bp20"><img src="img/text_entry_200807.png" alt="本ページ下部の「キャンペーンにエントリー」ボタン
+にてエントリーいただけます。" width="90%"></p>
+<img src="img/sp-202008-chance1.png" alt="当せん確率最大20倍チャンス！" width="90%"><br />
+</div>
+<div class="hr"></div>
+<!-- キャンペーン詳細 -->
+<div class="campaign txt bp30">
+<dl>
+<dt>キャンペーン期間</dt>
+<dd>
+2020年10月30日(金)10:00～2020年11月26日(木)09:59<br>
+※キャンペーン期間と特典の抽選対象となるくじの購入期間は異なります。<br></dd>
+<dt>実施概要</dt>
+<dd>
+キャンペーン期間中にくじを購入いただいた方を対象に、毎週抽選で合計12名様にMEGA BIG 100口をプレゼント！<br><br>
+※対象は適用条件を満たしたお客様のみとなります。<br>
+※適用条件を満たしていれば、他キャンペーンとの併用が可能です。<br>
+※auスマートパス会員(有料)、auスマートパスプレミアム会員(有料)の方は、当選確率が10倍になります。<br>
+(auスマートパス、auスマートパスプレミアムについては<span class="blue"><a href="https://www.au.com/entertainment/smartpass/">コチラ</a></span>)<br>
+※au PAY プリペイドカード（au かんたん決済(au PAY 残高支払い）を利用)、もしくはau PAY カード(クレジットカード決済にてau PAYカードを利用 )でご購入された方は、当選確率が10倍になります。<br>
+(au PAY 残高ついては<span class="blue"><a href="https://www.au.com/support/faq/detail/33/a00000000033/">コチラ</a></span>)<br>
+(au PAY カードついては<span class="blue"><a href="https://www.au.com/payment/card/">コチラ</a></span>)
+<br>
+</dd>
+<dt>適用条件</dt>
+<dd>
+①下記のキャンペーン期間中にエントリーが完了していること。<br>
+2020年10月30日(金)10:00～2020年11月26日(木)09:59<br><br>
+②下記の購入金額を満たしていること。<br>
+抽選対象期間中にくじを合計1,500円以上購入（複数くじ組み合わせ可）<br>
+※すべてのくじ種が対象です。<br>
+※定期購入も対象です。<br>
+抽選対象期間①：10/30(金)0:00～11/5(木)23:59（当せん者数：3名）<br>
+抽選対象期間②：11/6(金)0:00～11/12(木)23:59（当せん者数：3名）<br>
+抽選対象期間③：11/13(金)0:00～11/19(木)23:59（当せん者数：3名）<br>
+抽選対象期間④：11/20(金)0:00～11/26(木)23:59（当せん者数：3名）<br><br>
+③抽選時にau PAY totoメルマガ会員であること。<br><br>
+※指定試合の開催延期によりくじの購入ができない時間帯があります。あらかじめご了承ください。<br>
+※くじが不成立となりご購入代金の返還及び購入取り消しとなった購入は、本キャンペーンの対象外となります。<br>
+※本キャンペーンは購入した口数分だけ当選確率が上がります。<br>
+一口1,500円で抽選の対象となります。<br>
+</dd>
+<dt>特典提供時期</dt>
+<dd>※特典の提供については、2021年1月末までを予定しております。<br>
+ただし、システム上の都合により月末を超える場合があります。あらかじめご了承ください。<br>
+</dd>
+<dt>ご注意事項</dt>
+<dd>
+・本キャンペーンの主催は、KDDI株式会社とauコマース＆ライフ株式会社となります。<br>
+・本キャンペーンで得た権利の譲渡はできません。<br>
+・本キャンペーンは予告なく変更または中止する場合があります。<br>
+・本キャンペーンは対象となる条件を変更または期間を延長する場合があります。<br>
+・期間中であってもシステムメンテナンスなどの関係で本キャンペーンに参加できない場合があります。<br>
+・本キャンペーンと同一の取引を対象とする他のキャンペーンに当選した場合、当該キャンペーンおよび他のキャンペーンにおいて提供される景品類が、景品表示法上の範囲内に制限される場合があります。<br>
+・以下の場合は、本キャンペーン対象外となります。<br>
+  1. キャンペーン終了時点までにauを解約または、au PAY toto会員登録を解約された場合<br>
+  2. au PAY toto会員登録時のau IDを削除した場合<br>
+  3. au PAY toto会員登録時に入力いただいたau IDが無効になっている場合<br>
+  4. au回線の譲渡やau IDの統合等によりau PAY toto会員登録時に入力いただいたau IDが変更になった場合<br>
+  5. 当社が不正と認めた場合<br>
+  6. au PAY totoの利用規約等に違反した場合<br>
+  7. 上記以外の理由で特典の提供が出来ない場合<br>
+</dd>
+</dl>
+</div>
+<div class="hr"></div>
+<!-- エントリー -->
+<div class="tc">
+<div class="entry"><?php echo getEntryCampaignContents(false, 2); ?></div>
+<p class="entrycaution tp10">エントリーには、<span class="blue"><a href="entry/auth/">会員登録（無料）</a></span>が必要です。</p>
+</div>
+<div class="tc tp30 bp10">
+<a href="purchase/"><img src="img/sp-big-btn-s-2.png" alt="BIGを購入1" width="90%"></a>
+</div>
+<div class="tc tp20 bp0">
+<a href="routinebuy/regist/"><img src="img/sp-bigr-btn-s.png" alt="BIGを定期購入1" width="90%"></a>
+</div>
+<div class="tc tp20 bp50">
+<a href="purchasetoto/"><img src="img/sp-toto-btn-s-2.png" alt="totoを購入1" width="90%"></a>
+</div>
+</div>
+</div>
+<div class="block-link anchor-top margin20">
+      <a class="btn" href="#top" onclick="window.scrollTo(0, 0); return false;">
+        <img src="images/common/page-top.png" width="46" height="24" alt="ページTOPへ">
+      </a>
+    </div>
+    <!-- /.page-top -->
+<footer class="site-footer">
+      <nav class="nav site-footer__nav">
+        <ul class="nav__list">
+          <li class="nav__item nav__item--horizontal">
+            <a class="nav__btn nav__btn--default" href="https://stg.toto.auone.jp/" title="ホーム">
+              <span class="nav__txt nav__txt--large">ホーム</span>
+            </a>
+          </li>
+          <li class="nav__item nav__item--horizontal">
+            <a class="nav__btn nav__btn--default" href="https://stg.toto.auone.jp/sp/mypage.html" title="マイページ">
+              <span class="nav__txt nav__txt--large">マイページ</span>
+            </a>
+          </li>
+        </ul>
+        <ul class="nav__list">
+          <li class="nav__item nav__item--horizontal">
+            <a class="nav__btn nav__btn--default" href="https://www.kddi.com/app-policy/android/app-policy-autoto-1.1.html" title="プライバシーポリシー">
+              <span class="nav__txt">プライバシーポリシー</span>
+            </a>
+          </li>
+          <li class="nav__item nav__item--horizontal">
+            <a class="nav__btn nav__btn--default" href="about/sct.html" title="特定商取引法に基づく表示">
+              <span class="nav__txt">特定商取引法に基づく表示</span>
+            </a>
+          </li>
+        </ul>
+        <ul class="nav__list">
+          <li class="nav__item nav__item--horizontal">
+            <a class="nav__btn nav__btn--default" href="about/allowmodel.html" title="対応機種">
+              <span class="nav__txt">対応機種</span>
+            </a>
+          </li>
+          <li class="nav__item nav__item--horizontal">
+            <a class="nav__btn nav__btn--default" href="about/terms.html" title="利用規約">
+              <span class="nav__txt">利用規約</span>
+            </a>
+          </li>
+        </ul>
+        <ul class="nav__list">
+          <li class="nav__item nav__item--horizontal">
+            <a class="nav__btn nav__btn--default" href="about/resign.html" title="解約について">
+              <span class="nav__txt">解約について</span>
+            </a>
+          </li>
+          <li class="nav__item nav__item--horizontal">
+            <a class="nav__btn nav__btn--default" href="about/faq/summary.html" title="よくある質問">
+              <span class="nav__txt">よくある質問</span>
+            </a>
+          </li>
+        </ul>
+        <ul class="nav__list">
+          <li class="nav__item nav__item--horizontal">
+            <a class="nav__btn nav__btn--default" href="about/inquiry.html" title="お問い合わせ">
+              <span class="nav__txt">お問い合わせ</span>
+            </a>
+          </li>
+          <li class="nav__item nav__item--horizontal"></li>
+        </ul>
+      </nav>
+      <!-- /.site-footer__nav -->
+      <div class="site-footer__attn">
+        注意：19歳未満の方のスポーツくじの購入または譲り受けは<br>
+        法律で禁じられています。払戻金も受け取れません。
+      </div>
+      <!-- /.site-footer__attn -->
+      <div class="site-footer__copy">
+        COPYRIGHT &copy; KDDI CORPORATION ALL RIGHTS RESERVED.
+      </div>
+      <!-- /.site-footer__copy -->
+    </footer>
+    <!-- /.site-footer -->
+<?php
+if (!function_exists('stream_resolve_include_path')) {
+  function stream_resolve_include_path($filename) {
+    $paths = PATH_SEPARATOR == ':' ? preg_split('#(?<!phar):#', get_include_path()) : explode(PATH_SEPARATOR, get_include_path());
+    foreach ($paths as $prefix) {
+      $ds = substr($prefix, -1) == DIRECTORY_SEPARATOR ? '' : DIRECTORY_SEPARATOR;
+      $file = $prefix . $ds . $filename;
+      if (file_exists($file)) {
+        return $file;
+      }
+    }
+    return false;
+  }
+}
+?>
+<?php
+  define('PATH_LIB', '/home/www/toto/sitelib');
+  set_include_path(PATH_LIB . PATH_SEPARATOR . get_include_path());
+  echo '<!-- [';
+  // var_dump(stream_resolve_include_path('util.php'));
+  if ( false !== $path = stream_resolve_include_path('util.php') ) {
+    echo 'UTIL';
+    require_once('util.php');
+    setCookieLeadCode();
+  }
+  echo '] -->';
+?>
+<!-- [ck_af:] -->
+<div id="main" class="lp"></div>
+<!-- MOD FOOTER_SCRIPT -->
+    <script type="text/javascript" src="js/gaEventTracking.js"></script>
+    <!-- Google Tag Manager -->
+    <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-KDSW7F"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-KDSW7F');</script>
+    <!-- End Google Tag Manager -->
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-25399949-5']);
+      _gaq.push(['_trackPageview']);
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+<!-- /MOD FOOTER_SCRIPT -->
+  </body>
+</html>
+<!--| SET_MODULE |-->

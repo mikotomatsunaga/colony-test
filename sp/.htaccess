@@ -1,0 +1,16 @@
+RewriteEngine On
+
+# TODO:応急処置です　↓↓↓↓
+RewriteCond %{REQUEST_URI} !^/css/
+RewriteCond %{REQUEST_URI} !^/js/
+RewriteCond %{REQUEST_URI} !^/img/
+RewriteCond %{REQUEST_URI} !^/sp/css/
+RewriteCond %{REQUEST_URI} !^/sp/js/
+RewriteCond %{REQUEST_URI} !^/sp/img/
+RewriteCond %{REQUEST_URI} !^/sp/about/
+# TODO:応急処置です　↑↑↑↑
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteBase /sp
+RewriteRule (.*) index.php/$1 [L]
